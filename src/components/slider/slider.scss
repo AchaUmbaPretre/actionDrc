@@ -1,0 +1,86 @@
+.slider{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+    background: linear-gradient(rgba(21, 21, 65, 0.055),rgba(21, 21, 65, 0.021)),url('./../../img/hero-bg.png') no-repeat;
+    background-position: center;
+    .slider-container{
+        width: 1025px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 60px;
+        .slider-left{
+            flex: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            .slider-h1{
+                font-family: 'Anton', sans-serif;
+                color: rgb(21, 21, 65);
+                font-size: 3.2rem;
+                letter-spacing: 1.5px;
+                font-weight: bolder;
+            }
+            .slider-desc{
+                font-size: 1rem;
+                letter-spacing: .9px;
+                font-weight: 300;
+                color: rgb(73, 72, 72);
+                line-height: 1.5;
+                padding: 30px 0;
+                text-align: justify;
+                strong{
+                    color: rgb(21, 21, 65);
+                    font-weight: 800;
+                }
+            }
+            .slider-rows-btn{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .slider-btn{
+                    padding: 8px 12px;
+                    border : 2px solid rgb(21, 21, 65);
+                    color: rgb(21, 21, 65);
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    font-size: .9rem;
+                    transition: .5s;
+                    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.151);
+                    &:hover{
+                        background: rgb(21, 21, 65);
+                        color: #fff;
+                    }
+                }
+                .slider-diff{
+                    transition: .5s;
+                    background: rgb(21, 21, 65);
+                    color: #fff;
+                    &:hover{
+                        border : 2px solid rgb(21, 21, 65);
+                        color: rgb(21, 21, 65);
+                        background: #fff;
+                    }
+                }
+            }
+        }
+        .slider-right{
+            flex: 1;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .slider-img{
+                width: 80%;
+                object-fit: cover;
+            }
+        }
+    }
+}
