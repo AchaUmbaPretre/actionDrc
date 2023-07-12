@@ -1,5 +1,7 @@
 import {GppGood} from '@mui/icons-material'
-import about from './../../img/1.jpeg'
+import douane1 from './../../img/douane1.jpg'
+import douane2 from './../../img/douane2.jpg'
+import douane3 from './../../img/douane3.jpg'
 import './apropos.scss'
 
 const Apropos = () => {
@@ -25,24 +27,26 @@ const Apropos = () => {
                   <div className="apropos-rows">
                     <div className="apropos-row">
                       <GppGood className='apropos-icon'/>
-                      <h4 className="apropos-h4">Rapidité</h4>
+                      <h4 className="apropos-h4">Integrité</h4>
                     </div>
                     <div className="apropos-row">
                       <GppGood className='apropos-icon'/>
                       <h4 className="apropos-h4">Serviabilité</h4>
                     </div>
-                    <div className="apropos-row">
-                      <GppGood className='apropos-icon'/>
-                      <h4 className="apropos-h4">Integrité</h4>
-                    </div>
-                    <div className="apropos-row">
-                      <GppGood className='apropos-icon'/>
-                      <h4 className="apropos-h4">Creativité</h4>
-                    </div>
                   </div>
                 </div>
                 <div className="apropos-right">
-                  <img src={about} alt="" className="apropos-img" />
+                  <div className="apropos-right-left">
+                    <img src={douane2} alt="" className="apropos-right-img" />
+                  </div>
+                  <div className="apropos-right-rows">
+                    <div className="apropos-right-top">
+                      <img src={douane1} alt="" className="apropos-img1" />
+                    </div>
+                      <div className="apropos-right-bottom">
+                        <img src={douane3} alt="" className="apropos-img1" />
+                      </div>
+                    </div>
                 </div>
             </div>
         </div>
