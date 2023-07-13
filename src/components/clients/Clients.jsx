@@ -1,10 +1,10 @@
 import './clients.scss'
 import CHINA from './../../img/CHINA.png'
-import CNSS from './../../img/CNSS.jfif'
+import CNSS from './../../img/CNSS.png'
 import GECAMINE from './../../img/GECAMINE.png'
-import RVA from './../../img/RVA.png'
+import RVA from './../../img/rva.png'
 import snel from './../../img/snel.png'
-import jmc from './../../img/jmc.jfif'
+import jmc from './../../img/jmc.png'
 
 const Clients = () => {
   return (
