@@ -1,6 +1,7 @@
 import Apropos from "../../components/apropos/Apropos"
 import Clients from "../../components/clients/Clients"
 import Navbar from "../../components/navbar/Navbar"
+import Services from "../../components/services/Services"
 import Slider from "../../components/slider/Slider"
 import Topbar from "../../components/topbar/Topbar"
 import "./home.scss"
@@ -17,6 +18,7 @@ const Home = () => {
                     <Slider/>
                     <Apropos/>
                     <Clients/>
+                    <Services/>
                 </div>
             </div>
         </div>
