@@ -1,5 +1,6 @@
 import Apropos from "../../components/apropos/Apropos"
 import Clients from "../../components/clients/Clients"
+import Equipe from "../../components/equipe/Equipe"
 import Navbar from "../../components/navbar/Navbar"
 import Services from "../../components/services/Services"
 import Slider from "../../components/slider/Slider"
@@ -19,6 +20,7 @@ const Home = () => {
                     <Apropos/>
                     <Clients/>
                     <Services/>
+                    <Equipe/>
                 </div>
             </div>
         </div>
