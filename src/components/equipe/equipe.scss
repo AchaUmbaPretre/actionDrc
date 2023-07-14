@@ -1,8 +1,9 @@
 @import '../../style.scss';
 .equipe{
-    background: radial-gradient(rgba(194, 193, 193, 0),rgba(131, 128, 128, 0.075)), url('../../img/team-bg.jpg') no-repeat;
+/*     background: radial-gradient(#fff,rgba(131, 128, 128, 0.075)), url('../../img/team-bg.jpg') no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+    background: #f2f2f2;
     width: 100%;
     padding: 50px 0;
     .equipe-wrapper{
@@ -69,13 +70,13 @@
                     .equipe-top{
                         width: 100%;
                         .equipe-img{
-                            width: 100%;
+                            width: 90%;
                             object-fit: cover;
                             margin-bottom: 50px;
                         }
                     }
                     .equipe-bottom{
-                        width: 100%;
+                        width: 90%;
                         position: absolute;
                         bottom: 25px;
                         display: flex;
