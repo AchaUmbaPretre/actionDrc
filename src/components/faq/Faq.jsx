@@ -68,6 +68,34 @@ const Faq = () => {
                                 </p>
                             </div>
                         </div>
+
+                        <div class="question-row">
+                            <div class="visible-pannel">
+                                <h2 class="question-h2">Qu'est-ce qu'une agence de placement de personnel et en quoi consiste votre activité,</h2>
+                                <ExpandMoreIcon className='icons-plus'/>
+                            </div>
+                            <div class="toggle-pannel">
+                                <p class="question-desc">
+                                Une agence de placement de personnel est une entreprise qui se spécialise dans le recrutement et le placement de personnel
+                                pour les entreprises et les organisations. Chez Actions SARL, nous aidons nos clients à trouver les meilleurs talents en
+                                leur fournissant des services de recrutement, de sélection, de formation et de placement de personnel adaptés à leurs besoins.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="question-row">
+                            <div class="visible-pannel">
+                                <h2 class="question-h2">Comment pouvez-vous aider les petites entreprises qui n'ont pas d'expérience en matière de transactions internationales ?</h2>
+                                <ExpandMoreIcon className='icons-plus'/>
+                            </div>
+                            <div class="toggle-pannel">
+                                <p class="question-desc">
+                                Chez Actions SARL, nous travaillons avec des entreprises de toutes tailles, y compris des petites entreprises qui n'ont pas
+                                d'expérience en matière de transactions internationales. Nous sommes là pour vous guider à chaque étape du processus, en
+                                fournissant des conseils et des services adaptés à vos besoins spécifiques
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
