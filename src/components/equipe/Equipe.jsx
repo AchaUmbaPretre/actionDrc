@@ -29,16 +29,16 @@ const Equipe = () => {
                                     <h3 className="equipe-h3">General Manager</h3>
                                     <div className="equipe-rx">
                                         <div className="equipe-rows-rx">
-                                            <FacebookOutlined/>
+                                            <FacebookOutlined className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Twitter/>
+                                            <Twitter className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <LinkedIn/>
+                                            <LinkedIn className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Instagram/>
+                                            <Instagram className='equipe-icon'/>
                                         </div>
                                     </div>
                                 </div>
@@ -55,16 +55,16 @@ const Equipe = () => {
                                     <h3 className="equipe-h3">DAF</h3>
                                     <div className="equipe-rx">
                                         <div className="equipe-rows-rx">
-                                            <FacebookOutlined/>
+                                            <FacebookOutlined className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Twitter/>
+                                            <Twitter className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <LinkedIn/>
+                                            <LinkedIn className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Instagram/>
+                                            <Instagram className='equipe-icon'/>
                                         </div>
                                     </div>
                                 </div>
@@ -81,16 +81,16 @@ const Equipe = () => {
                                     <h3 className="equipe-h3">Chef d'Agence Kinshasa</h3>
                                     <div className="equipe-rx">
                                         <div className="equipe-rows-rx">
-                                            <FacebookOutlined/>
+                                            <FacebookOutlined className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Twitter/>
+                                            <Twitter className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <LinkedIn/>
+                                            <LinkedIn className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Instagram/>
+                                            <Instagram className='equipe-icon'/>
                                         </div>
                                     </div>
                                 </div>
@@ -107,16 +107,16 @@ const Equipe = () => {
                                     <h3 className="equipe-h3">Chef d'Agence Katanga</h3>
                                     <div className="equipe-rx">
                                         <div className="equipe-rows-rx">
-                                            <FacebookOutlined/>
+                                            <FacebookOutlined className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Twitter/>
+                                            <Twitter className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <LinkedIn/>
+                                            <LinkedIn className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Instagram/>
+                                            <Instagram className='equipe-icon'/>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@ const Equipe = () => {
 
                         <div className="equipe-row">
                             <div className="equipe-top">
-                                <img src={nana} alt="" className="equipe-img" />
+                                <img src={patrick} alt="" className="equipe-img" />
                             </div>
                             <div className="equipe-bottom">
                                 <div className="equipe-bottom-rows">
@@ -133,16 +133,16 @@ const Equipe = () => {
                                     <h3 className="equipe-h3">Financial Manager Katanga</h3>
                                     <div className="equipe-rx">
                                         <div className="equipe-rows-rx">
-                                            <FacebookOutlined/>
+                                            <FacebookOutlined className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Twitter/>
+                                            <Twitter className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <LinkedIn/>
+                                            <LinkedIn className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Instagram/>
+                                            <Instagram className='equipe-icon'/>
                                         </div>
                                     </div>
                                 </div>
@@ -159,16 +159,16 @@ const Equipe = () => {
                                     <h3 className="equipe-h3">Supervisor</h3>
                                     <div className="equipe-rx">
                                         <div className="equipe-rows-rx">
-                                            <FacebookOutlined/>
+                                            <FacebookOutlined className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Twitter/>
+                                            <Twitter className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <LinkedIn/>
+                                            <LinkedIn className='equipe-icon'/>
                                         </div>
                                         <div className="equipe-rows-rx">
-                                            <Instagram/>
+                                            <Instagram className='equipe-icon'/>
                                         </div>
                                     </div>
                                 </div>

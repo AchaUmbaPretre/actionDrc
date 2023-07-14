@@ -5,14 +5,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 50px);
-    background: linear-gradient(rgba(21, 21, 65, 0.055),rgba(21, 21, 65, 0.021)),url('./../../img/hero-bg.png') no-repeat;
+    height: calc(90vh - 50px);
+    background: linear-gradient(rgba(104, 104, 158, 0.055),rgba(81, 81, 180, 0.021)),url('./../../img/hero-bg.png') no-repeat;
     background-position: center;
     .slider-container{
         width: 1025px;
         height: 100%;
         display: flex;
-        align-items: center;
         justify-content: space-between;
         padding-top: 60px;
         .slider-left{
@@ -75,10 +74,9 @@
             flex: 1;
             width: 100%;
             display: flex;
-            align-items: center;
-            justify-content: center;
+            justify-content: flex-end;
             .slider-img{
-                width: 80%;
+                width: 90%;
                 object-fit: cover;
             }
         }

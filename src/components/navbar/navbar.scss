@@ -64,6 +64,7 @@
                 padding: 10px 0;
                 letter-spacing: 1px;
                 transition: .5s;
+                font-weight: 300;
                 &:hover{
                     border-bottom: 1px solid rgb(21, 21, 65);
                 }
@@ -73,7 +74,8 @@
                 } 
             }
             .navbar-rsx{
-                background: rgb(21, 21, 65);
+                border: 1px solid rgba(21, 21, 65, 0.603);
+                box-shadow: 0px 4px 14px hsl(355deg 25% 15% / 10%);
                 padding: 5px 15px;
                 border-radius: 50px;
                 display: flex;
@@ -81,9 +83,12 @@
                 gap: 10px;
 
                 .navbar-icon{
-                    color: #fff;
+                    color: rgb(21, 21, 65);
                     font-size: 1.2rem;
                     cursor: pointer;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
                 }
 
             }
@@ -120,6 +125,16 @@
 }
 .bleu-link{
     color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+    transition: .5s;
+    font-weight: 300;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    &:hover{
+        border-bottom: 1px solid #f2f2f2;
+    }
 }
 
 
