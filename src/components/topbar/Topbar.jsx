@@ -25,7 +25,6 @@ const Topbar = () => {
                     <Facebook className='topbar-rsx'/>
                     <LinkedIn className='topbar-rsx'/>
                     <Instagram className='topbar-rsx'/>
-                    <YouTube className='topbar-rsx'/>
                 </div>
             </div>
         </div>

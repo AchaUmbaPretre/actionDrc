@@ -3,7 +3,11 @@
 .faq{
     width: 100%;
     padding: 50px 0;
-    
+    background: linear-gradient(
+        rgba(209, 207, 207, 0.329),rgba(189, 184, 184, 0.671)), url('../../img/hero-bg.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+
     .faq-wrapper{
         max-width: 1025px;
         margin: 0 auto;
