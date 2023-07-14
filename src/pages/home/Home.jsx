@@ -1,6 +1,7 @@
 import Apropos from "../../components/apropos/Apropos"
 import Clients from "../../components/clients/Clients"
 import Equipe from "../../components/equipe/Equipe"
+import Formation from "../../components/formation/Formation"
 import Navbar from "../../components/navbar/Navbar"
 import Services from "../../components/services/Services"
 import Slider from "../../components/slider/Slider"
@@ -21,6 +22,7 @@ const Home = () => {
                     <Clients/>
                     <Services/>
                     <Equipe/>
+                    <Formation/>
                 </div>
             </div>
         </div>

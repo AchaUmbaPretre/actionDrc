@@ -1,0 +1,56 @@
+@import '../../style.scss';
+.formation{
+    width: 100%;
+    padding: 50px 0;
+    .formation-wrapper{
+        max-width: 1025px;
+        margin: 0 auto;
+        .client-cont-title{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+            .client-title{
+                font-size: 1.2rem;
+                color: rgb(21, 21, 65);
+            }
+            .client-sous-title{
+                width: 60%;
+                margin: 0 auto;
+                font-size: 2rem;
+                font-family: 'Anton', sans-serif;
+                color: rgb(21, 21, 65);
+                @include mobile{
+                    width: 100%;
+                 }
+            }
+            .apropos-barre{
+                display: flex;
+                align-items: center;
+                margin: 0 auto;
+                height: 5px;
+                width: 15%;
+                background: rgb(21, 21, 65);
+                overflow: hidden;
+                .apropos-moov{
+                    background: #fff;
+                    height: 100%;
+                    width: 7px;
+                    animation: barAnim 10s infinite;
+
+                    @keyframes barAnim {
+                        0%{
+                            transform: translateX(0px);
+                        }
+                        50%{
+                            transform: translateX(142px);
+                        }
+                        100%{
+                            transform: translateX(0px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
