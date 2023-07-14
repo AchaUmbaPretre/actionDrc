@@ -119,23 +119,10 @@ const Faq = () => {
                             </div>
                             <div class="toggle-pannel">
                                 <p class="question-desc">
-                                En République Démocratique du Congo, de nombreuses jeunes filles et des mères de famille travaillent comme
-                                femmes de ménage. Si certaines d'entre elles ont pu trouver ce travail grâce à une agence, la plupart sont
-                                recrutées sur base des relations interpersonnelles, amicales ou de bouche à oreille. Dans bien des cas, elles
-                                travaillent pendant des années sans contrat et sans le moindre.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="question-row">
-                            <div class="visible-pannel">
-                                <h2 class="question-h2">Quels types de services offrez-vous en matière de placement de personnel ?</h2>
-                                <ExpandMoreIcon className='icons-plus'/>
-                            </div>
-                            <div class="toggle-pannel">
-                                <p class="question-desc">
-                                Chez Actions SARL, nous offrons une gamme complète de services de placement de personnel, y compris la sélection de candidats, la vérification des antécédents et des références,
-                                 l'évaluation des compétences, la formation, la gestion des contrats de travail, la gestion de la paie et des avantages sociaux, et la gestion de la conformité réglementaire
+                                En République Démocratique du Congo, de nombreuses jeunes filles et des mères de famille travaillent
+                                comme femmes de ménage. Si certaines d'entre elles ont pu trouver ce travail grâce à une agence, la
+                                plupart sont recrutées sur base des relations interpersonnelles, amicales ou de bouche à oreille.
+                                Dans bien des cas, elles travaillent pendant des années sans contrat et sans le moindre.
                                 </p>
                             </div>
                         </div>
