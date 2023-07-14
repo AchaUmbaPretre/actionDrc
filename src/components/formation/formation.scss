@@ -5,52 +5,70 @@
     .formation-wrapper{
         max-width: 1025px;
         margin: 0 auto;
-        .client-cont-title{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            text-align: center;
-            .client-title{
-                font-size: 1.2rem;
-                color: rgb(21, 21, 65);
-            }
-            .client-sous-title{
-                width: 60%;
-                margin: 0 auto;
-                font-size: 2rem;
-                font-family: 'Anton', sans-serif;
-                color: rgb(21, 21, 65);
-                @include mobile{
-                    width: 100%;
-                 }
-            }
-            .apropos-barre{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 30px;
+        .formation-left{
+            flex: 1;
+            .client-cont-title{
                 display: flex;
-                align-items: center;
-                margin: 0 auto;
-                height: 5px;
-                width: 15%;
-                background: rgb(21, 21, 65);
-                overflow: hidden;
-                .apropos-moov{
-                    background: #fff;
-                    height: 100%;
-                    width: 7px;
-                    animation: barAnim 10s infinite;
+                flex-direction: column;
+                gap: 10px;
+                position: relative;
 
-                    @keyframes barAnim {
-                        0%{
-                            transform: translateX(0px);
-                        }
-                        50%{
-                            transform: translateX(142px);
-                        }
-                        100%{
-                            transform: translateX(0px);
+                .client-title{
+                    font-size: 1.2rem;
+                    color: rgb(21, 21, 65);
+                    @include mobile{
+                        font-size: 1rem;
+                    }
+                }
+                .client-sous-title{
+                    font-size: 2rem;
+                    font-family: 'Anton', sans-serif;
+                    color: rgb(21, 21, 65); 
+                }
+                .apropos-barre{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    height: 5px;
+                    width: 25%;
+                    background: rgb(21, 21, 65);
+
+                    .apropos-moov{
+                        background: #fff;
+                        height: 100%;
+                        width: 7px;
+                        animation: barAnim 10s infinite;
+
+                        @keyframes barAnim {
+                            0%{
+                                transform: translateX(0px);
+                            }
+                            50%{
+                                transform: translateX(142px);
+                            }
+                            100%{
+                                transform: translateX(0px);
+                            }
                         }
                     }
                 }
             }
+            .formation-text{
+                padding: 40px 0;
+                .formation-desc{
+                    color: grey;
+                    line-height: 1.9;
+                    text-align: justify;
+                    font-weight: 300;
+                }
+            }
         }
+        .formation-right{
+            flex: 1;
+        }
+        
     }
 }
