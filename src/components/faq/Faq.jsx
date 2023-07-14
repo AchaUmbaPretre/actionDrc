@@ -14,56 +14,57 @@ const Faq = () => {
                     <div className="faq-rows">
                         <div class="question-row">
                             <div class="visible-pannel">
-                                <h2 class="question-h2">Quels sont des criteres d'admission à l'école Nyota ?</h2>
+                                <h2 class="question-h2">Qu'est-ce qu'une agence en douane et en quoi consiste votre activité ?</h2>
                                 <ExpandMoreIcon className='icons-plus'/>
                             </div>
                             <div class="toggle-pannel">
                                 <p class="question-desc">
-                                    Les critères d'admission à l'école Nyota varient selon le niveau scolaire. Les candidats
-                                    sont évalués en fonction de leur aptitude scolaire, de leur comportement, de leur attitude
-                                    envers l'apprentissage et de leur motivation.
+                                Une agence en douane est une entreprise spécialisée dans les formalités douanières et les transactions
+                                internationales. Chez Actions SARL, nous aidons nos clients à naviguer dans le système douanier en leur
+                                fournissant des conseils et des services adaptés à leurs besoins.
                                 </p>
                             </div>
                         </div>
 
                         <div class="question-row">
                             <div class="visible-pannel">
-                                <h2 class="question-h2">Quels sont des criteres d'admission à l'école Nyota ?</h2>
+                                <h2 class="question-h2">Quels sont les avantages de faire appel à une agence en douane pour mes transactions internationales ?</h2>
                                 <ExpandMoreIcon className='icons-plus'/>
                             </div>
                             <div class="toggle-pannel">
                                 <p class="question-desc">
-                                    Les critères d'admission à l'école Nyota varient selon le niveau scolaire. Les candidats
-                                    sont évalués en fonction de leur aptitude scolaire, de leur comportement, de leur attitude
-                                    envers l'apprentissage et de leur motivation.
+                                Les transactions internationales impliquent souvent des formalités douanières complexes et des réglementations strictes.
+                                Faire appel à une agence en douane telle que Actions SARL peut vous aider à réduire le risque de retards, d'erreurs ou
+                                de coûts supplémentaires, en vous permettant de vous concentrer sur votre activité principale.
                                 </p>
                             </div>
                         </div>
 
                         <div class="question-row">
                             <div class="visible-pannel">
-                                <h2 class="question-h2">Quels sont des criteres d'admission à l'école Nyota ?</h2>
+                                <h2 class="question-h2">Quels types de services offrez-vous en matière de douane ?</h2>
                                 <ExpandMoreIcon className='icons-plus'/>
                             </div>
                             <div class="toggle-pannel">
                                 <p class="question-desc">
-                                    Les critères d'admission à l'école Nyota varient selon le niveau scolaire. Les candidats
-                                    sont évalués en fonction de leur aptitude scolaire, de leur comportement, de leur attitude
-                                    envers l'apprentissage et de leur motivation.
+                                Chez Actions SARL, nous offrons une gamme complète de services douaniers, y compris la classification des marchandises,
+                                la gestion des documents de dédouanement, la gestion des formalités douanières, la gestion des taxes et des droits
+                                d'importation, et la gestion des réglementations douanières. Pour ces derniers, nous avons une expertise avérées dans
+                                la résolution des contentieux liés à la douane
                                 </p>
                             </div>
                         </div>
 
                         <div class="question-row">
                             <div class="visible-pannel">
-                                <h2 class="question-h2">Quels sont des criteres d'admission à l'école Nyota ?</h2>
+                                <h2 class="question-h2">Comment pouvez-vous aider les petites entreprises qui n'ont pas d'expérience en matière de transactions internationales ?</h2>
                                 <ExpandMoreIcon className='icons-plus'/>
                             </div>
                             <div class="toggle-pannel">
                                 <p class="question-desc">
-                                    Les critères d'admission à l'école Nyota varient selon le niveau scolaire. Les candidats
-                                    sont évalués en fonction de leur aptitude scolaire, de leur comportement, de leur attitude
-                                    envers l'apprentissage et de leur motivation.
+                                Chez Actions SARL, nous travaillons avec des entreprises de toutes tailles, y compris des petites entreprises qui n'ont pas
+                                d'expérience en matière de transactions internationales. Nous sommes là pour vous guider à chaque étape du processus, en
+                                fournissant des conseils et des services adaptés à vos besoins spécifiques
                                 </p>
                             </div>
                         </div>
