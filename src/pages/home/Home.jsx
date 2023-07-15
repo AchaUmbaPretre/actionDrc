@@ -7,6 +7,7 @@ import Navbar from "../../components/navbar/Navbar"
 import Services from "../../components/services/Services"
 import Slider from "../../components/slider/Slider"
 import Topbar from "../../components/topbar/Topbar"
+import Villes from "../../components/villes/Villes"
 import "./home.scss"
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
                     <Equipe/>
                     <Formation/>
                     <Faq/>
+                    <Villes/>
                 </div>
             </div>
         </div>

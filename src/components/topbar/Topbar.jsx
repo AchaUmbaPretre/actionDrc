@@ -1,4 +1,4 @@
-import { Facebook, Instagram, LinkedIn, LocationOn, Mail, Phone, Twitter, YouTube } from '@mui/icons-material'
+import { Facebook, Instagram, LinkedIn, LocationOn, Mail, Phone, Twitter } from '@mui/icons-material'
 import './topbar.scss'
 
 const Topbar = () => {
