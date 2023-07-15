@@ -17,6 +17,9 @@
             position: relative;
             overflow: hidden;
         }
+        @include mobileSE{
+            width: 345px;
+        }
         .client-cont-title{
             display: flex;
             flex-direction: column;

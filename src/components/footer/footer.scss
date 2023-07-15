@@ -17,6 +17,9 @@
             position: relative;
             overflow: hidden;
         }
+        @include mobileSE{
+            width: 345px;
+        }
         .experience-container{
             width: 100%;
             display: flex;

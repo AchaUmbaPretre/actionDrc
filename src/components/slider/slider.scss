@@ -18,6 +18,9 @@
     @include mobileXR{
         height: calc(60vh - 50px);
     }
+    @include mobileSE{
+        height: calc(80vh - 50px);
+    }
     .slider-container{
         width: 1025px;
         height: 100%;
@@ -36,6 +39,9 @@
             width: 370px;
             position: relative;
             overflow: hidden;
+        }
+        @include mobileSE{
+            width: 345px;
         }
         .slider-left{
             flex: 1;

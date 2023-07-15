@@ -36,6 +36,9 @@
             position: relative;
             overflow: hidden;
         }
+        @include mobileSE{
+            width: 345px;
+        }
         .apropos-left{
             display: flex;
             flex-direction: column;
