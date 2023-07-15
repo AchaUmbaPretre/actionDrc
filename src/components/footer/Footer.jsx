@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './footer.scss'
+import { Facebook, Instagram, LinkedIn, LocationOn, Mail, Phone, Twitter } from '@mui/icons-material'
 
 const Footer = () => {
   return (
@@ -28,23 +29,23 @@ const Footer = () => {
                     <div class="footer-center2">
                         <h2 class="footer-h2">Contact</h2>
                         <div class="footer-icons">
-                            <i class="fa-solid fa-location-dot icons-footer"></i>
+                            <LocationOn className='icons-footer'/>
                             <div class="contact-right-row">
-                                <span class="footer-desc">Benseke Numero 8, Commune de Kintambo, Kinshasa</span>
+                                <span class="footer-desc">25 avenue de l'OUA Quartier GB Commune de Ngaliema</span>
                             </div>
                         </div>
 
                         <div class="footer-icons">
-                            <i class="fa-solid fa-phone icons-footer"></i>
+                            <Phone className='icons-footer'/>
                             <div class="contact-right-row">
-                                <span class="footer-desc">+243819932813 <br/> +243897224610</span>
+                                <span class="footer-desc">+243 819 444 440</span>
                             </div>
                         </div>
 
                         <div class="footer-icons">
-                            <i class="fa-regular fa-envelope icons-footer"></i>
+                            <Mail className='icons-footer'/>
                             <div class="footer-right-row">
-                                <span class="footer-desc">nyotacsn@gmail.com <br/><a href="https://cs-nyota.org<" class="footer-desc">https://cs-nyota.org</a></span>
+                                <div class="footer-desc"><Link to="https://Info@actionsdrc.com<" class="footer-desc">Info@actionsdrc.com</Link></div>
                             </div>
                         </div>
                     </div>
@@ -53,16 +54,16 @@ const Footer = () => {
                         <input type="text" class="footer-input" placeholder="Entrer votre email.."/>
                         <div class="footer-sociaux">
                             <div class="footer-social">
-                                <i class="fab fa-facebook icon-footer"></i>
+                              <Facebook className='icon-footer'/>
                             </div>
                             <div class="footer-social">
-                                <i class="fab fa-twitter icon-footer"></i>
+                              <Twitter className='icon-footer'/>
                             </div>
                             <div class="footer-social">
-                                <i class="fab fa-linkedin icon-footer"></i>
+                              <LinkedIn className='icon-footer'/>
                             </div>
                             <div class="footer-social">
-                                <i class="fab fa-instagram icon-footer"></i>
+                              <Instagram className='icon-footer'/>
                             </div>
                         </div>
                     </div>
