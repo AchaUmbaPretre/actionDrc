@@ -49,7 +49,7 @@ const Contact = () => {
                             <div className="contact-left-bottom">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.4334450565507!2d15.268762665319963!3d-4.329408186018682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a317bcc7b4d15%3A0x9e7487b7f498d9d8!2s25%20O.U.A%2C%20Kinshasa!5e0!3m2!1sfr!2scd!4v1689414951569!5m2!1sfr!2scd" 
                                     width="100%"
-                                    height="250" 
+                                    height="300" 
                                     style={{border:"0"}} 
                                     allowfullscreen="" 
                                     loading="lazy" 
@@ -68,7 +68,7 @@ const Contact = () => {
                                     <input type="text" className="input-controle" placeholder='Objectif...' />
                                 </div>
                                 <textarea name="" id="" rows="20" placeholder='message...'></textarea>
-                                <a href="" type='submit' className="contact-submit">Envoyer</a>
+                                <a href="" type='submit' className="contact-submit">Envoyer le message</a>
                             </form>
                         </div>
                     </div>
