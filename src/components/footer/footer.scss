@@ -167,11 +167,17 @@
                         outline: none;
                         border-radius: 5px;
                         margin-bottom: 20px;
+                        @include mobileXR{
+                            width: 90%;
+                        }
                     }
                     .footer-sociaux{
                         display: flex;
                         align-items: center;
                         gap: 20px;
+                        @include mobileXR{
+                            gap:8px
+                        }
                         .footer-social{
                             position: relative;
                             height: 40px;
@@ -181,6 +187,10 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            @include mobileXR{
+                                width: 30px;
+                                height: 30px;
+                            }
                             cursor: pointer;
                             &:hover{
                                 transform: scale(1.1);
@@ -188,6 +198,9 @@
                             .icon-footer{
                                 font-size: 1.5rem;
                                 color: #12141c;
+                                @include mobileXR{
+                                    font-size: 1rem;
+                                }
                             }
                         }
                     }

@@ -12,6 +12,9 @@
         @include mobile{
             width: 400px;
         }
+        @include mobileXR{
+            width: 370px;
+        }
         .client-cont-title{
             display: flex;
             flex-direction: column;
