@@ -37,7 +37,7 @@ const Navbar = () => {
                         <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Services</Link></li>
                         <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Faq</Link></li>
                         <li className="navbar-li"><Link to={''}  className={active ? "bleu-link" : "navbar-link"}>Contact</Link></li>
-                        <div className="navbar-rsx">
+                        <div className={active ? "navbar-rsx-blue" : "navbar-rsx"}>
                             <FacebookOutlined className='navbar-icon'/>
                             <Twitter className='navbar-icon'/>
                             <Instagram className='navbar-icon'/>

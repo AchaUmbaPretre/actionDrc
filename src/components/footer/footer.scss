@@ -33,7 +33,6 @@
                         padding-bottom: 20px;
                         line-height: 1.5;
                         font-weight: 300;
-                        letter-spacing: 1px;
                     }
                 }
                 .footer-center1{
@@ -59,7 +58,6 @@
                                 color: gray;
                                 font-weight: 300;
                                 font-size: .9rem;
-                                letter-spacing: 1px;
                             }
                         }
                     }
@@ -94,7 +92,9 @@
                                 color: grey;
                                 padding-bottom: 20px;
                                 font-weight: 300;
-                                letter-spacing: 1px;
+                                .footer-desc{
+                                    color: gray!important;
+                                }
                             }
                         }
                     }
