@@ -32,8 +32,10 @@ const Navbar = () => {
                     <BarChart className='navbar-bar' onClick={handBar}/>
                     <ul className={ bar ? "navbar-ul navbarOpen" : "navbar-ul"}>
                         <li className="navbar-li"><Link to={'/'} className={active ? "bleu-link" : "navbar-link"}>Accueil</Link></li>
+                        <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Apropos</Link></li>
                         <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Equipe</Link></li>
                         <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Services</Link></li>
+                        <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Faq</Link></li>
                         <li className="navbar-li"><Link to={''}  className={active ? "bleu-link" : "navbar-link"}>Contact</Link></li>
                         <div className="navbar-rsx">
                             <FacebookOutlined className='navbar-icon'/>

@@ -3,6 +3,7 @@ import Clients from "../../components/clients/Clients"
 import Contact from "../../components/contact/Contact"
 import Equipe from "../../components/equipe/Equipe"
 import Faq from "../../components/faq/Faq"
+import Footer from "../../components/footer/Footer"
 import Formation from "../../components/formation/Formation"
 import Navbar from "../../components/navbar/Navbar"
 import Services from "../../components/services/Services"
@@ -29,6 +30,7 @@ const Home = () => {
                     <Faq/>
                     <Villes/>
                     <Contact/>
+                    <Footer/>
                 </div>
             </div>
         </div>

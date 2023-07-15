@@ -68,7 +68,7 @@ const Contact = () => {
                                     <input type="text" className="input-controle" placeholder='Objectif...' />
                                 </div>
                                 <textarea name="" id="" rows="20" placeholder='message...'></textarea>
-                                <a href="" type='submit' className="contact-submit">Envoyer le message</a>
+                                <Link type='submit' className="contact-submit">Envoyer le message</Link>
                             </form>
                         </div>
                     </div>
