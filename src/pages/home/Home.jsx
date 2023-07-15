@@ -1,5 +1,6 @@
 import Apropos from "../../components/apropos/Apropos"
 import Clients from "../../components/clients/Clients"
+import Contact from "../../components/contact/Contact"
 import Equipe from "../../components/equipe/Equipe"
 import Faq from "../../components/faq/Faq"
 import Formation from "../../components/formation/Formation"
@@ -27,6 +28,7 @@ const Home = () => {
                     <Formation/>
                     <Faq/>
                     <Villes/>
+                    <Contact/>
                 </div>
             </div>
         </div>

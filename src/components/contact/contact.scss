@@ -1,9 +1,9 @@
-@import '../../style.scss';
-.villes{
-    background: #fff;
+
+.contact{
+    background: #f2f2f2;
     width: 100%;
     padding: 50px 0;
-    .villes-wrapper{
+    .contact-wrapper{
         max-width: 1025px;
         margin: 0 auto;
         .client-cont-title{
@@ -50,40 +50,8 @@
             }
         }
 
-        .villes-container{
-            width: 100%;
-            padding-top: 100px;
-            .villes-rows{
-                display: grid;
-                grid-template-columns: repeat(4, 1fr);
-                .villes-row{
-                    padding: 20px;
-                    background: #fff;
-                    border: 1px solid #f2f2f2;
-                    cursor: pointer;
-                    box-shadow: 0px 4px 14px hsl(355deg 25% 15% / 10%);
-                    &:hover{
-                        transform: scale(1.1);
-                    }
-                    .villes-image{
-                        width: 100%;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        .villes-img{
-                            width: 40px;
-                            height: 40px;
-                        }
-                    }
-                    h2{
-                        font-size: 1rem;
-                        color: rgb(68, 66, 66);
-                        text-align: center;
-                        padding-top: 20px;
-                        font-weight: 300;
-                    }
-                }
-            }
+        .contact-container{
+
         }
     }
 }
