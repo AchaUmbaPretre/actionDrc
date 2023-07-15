@@ -74,13 +74,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p class="footer-copy">&#169 LoginSmort. tous droits réservés</p>
-        </div>
     </footer>
-    <a href="" class="scrollup" id="scroll-up" onclick='scrollToTop();'>
-        <i class="fa-solid fa-arrow-up scrollup-icon"></i>
-    </a>
 
     </>
   )

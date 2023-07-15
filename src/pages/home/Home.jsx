@@ -5,6 +5,7 @@ import Equipe from "../../components/equipe/Equipe"
 import Faq from "../../components/faq/Faq"
 import Footer from "../../components/footer/Footer"
 import Formation from "../../components/formation/Formation"
+import LinePage from "../../components/linePage/LinePage"
 import Navbar from "../../components/navbar/Navbar"
 import Services from "../../components/services/Services"
 import Slider from "../../components/slider/Slider"
@@ -31,6 +32,7 @@ const Home = () => {
                     <Villes/>
                     <Contact/>
                     <Footer/>
+                    <LinePage/>
                 </div>
             </div>
         </div>
