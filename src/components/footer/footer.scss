@@ -32,6 +32,7 @@
                         color: grey;
                         padding-bottom: 20px;
                         line-height: 1.5;
+                        font-weight: 300;
                     }
                 }
                 .footer-center1{
@@ -55,6 +56,7 @@
                             list-style: none;
                             .footerLi{
                                 color: gray;
+                                font-weight: 300;
                             }
                         }
                     }
@@ -76,10 +78,11 @@
                     }
                     .footer-icons{
                         display: flex;
-                            align-items: center;
-                            gap: 10px;
+                        align-items: center;
+                        gap: 10px;
                         .icons-footer{
-                            font-size: 1.5rem;
+                            font-size: 2rem;
+                            color: #747070;
                         }
                         .contact-right-row{
 
@@ -87,6 +90,7 @@
                                 font-size: .9rem;
                                 color: grey;
                                 padding-bottom: 20px;
+                                font-weight: 300;
                             }
                         }
                     }
@@ -130,6 +134,10 @@
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            cursor: pointer;
+                            &:hover{
+                                transform: scale(1.1);
+                            }
                             .icon-footer{
                                 font-size: 1.5rem;
                                 color: #12141c;

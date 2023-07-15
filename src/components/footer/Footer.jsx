@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import './footer.scss'
 import { Facebook, Instagram, LinkedIn, LocationOn, Mail, Phone, Twitter } from '@mui/icons-material'
+import logo from '../../img/actionssarl.PNG'
 
 const Footer = () => {
   return (
@@ -11,18 +12,21 @@ const Footer = () => {
                 <div class="footer-rows">
                     <div class="footer-left">
                         <div class="footer-logo">
-                            <img src="./img/logo.jpg" alt="" class="footer-img"/>
+                            <img src={logo} alt="" class="footer-img"/>
                         </div>
-                        <div class="footer-desc"><strong>ACTIONSDRC</strong> Avec son histoire riche, son corps enseignant qualifié et son engagement envers la réussite de chaque élève, Nyota incarne la poursuite du savoir et la préparation des futurs leaders congolais. Elle brille, somme toute, comme un symbole d'excellence éducative au Congo.</div>
+                        <div class="footer-desc"><strong>ACTIONSDRC</strong> Nous sommes une entreprise de droit congolais, Agence en
+                          Douane et de Placement de Personnel. Nous sommes basés à Kinshasa et nous avons une présence bien établie dans
+                          tout le pays.
+                        </div>
                     </div>
                     <div class="footer-center1">
                         <h2 class="footer-h2">Get Help</h2>
                         <ul class="footer-ul">
                             <li><Link to="#accueil" class="footerLi">Accueil</Link></li>
-                            <li><Link to="#question" class="footerLi">A propos</Link></li>
+                            <li><Link to="#apropos" class="footerLi">A propos</Link></li>
                             <li><Link to="#apropos" class="footerLi">Equipe</Link></li>
-                            <li><Link to="#vision" class="footerLi">Services</Link></li>
-                            <li><Link to="#renseignement" class="footerLi">Faq</Link></li>
+                            <li><Link to="#services" class="footerLi">Services</Link></li>
+                            <li><Link to="#faq" class="footerLi">Faq</Link></li>
                             <li><Link to="#contact" class="footerLi">Contact</Link></li>
                         </ul>
                     </div>
