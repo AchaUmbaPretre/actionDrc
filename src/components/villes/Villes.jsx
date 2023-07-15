@@ -62,7 +62,7 @@ const Villes = () => {
                             <div className="villes-image">
                                 <img src={localisation} alt="" className="villes-img" />
                             </div>
-                            <h2>Kasumbalesa</h2>
+                            <h2>Kisangani</h2>
                         </div>
                     </div>
 
@@ -71,7 +71,25 @@ const Villes = () => {
                             <div className="villes-image">
                                 <img src={localisation} alt="" className="villes-img" />
                             </div>
-                            <h2>Kasumbalesa</h2>
+                            <h2>Mbuji-Mayi</h2>
+                        </div>
+                    </div>
+
+                    <div className="villes-rows">
+                        <div className="villes-row">
+                            <div className="villes-image">
+                                <img src={localisation} alt="" className="villes-img" />
+                            </div>
+                            <h2>Kananga</h2>
+                        </div>
+                    </div>
+
+                    <div className="villes-rows">
+                        <div className="villes-row">
+                            <div className="villes-image">
+                                <img src={localisation} alt="" className="villes-img" />
+                            </div>
+                            <h2>Nord et Sud-kivu</h2>
                         </div>
                     </div>
                 </div>
