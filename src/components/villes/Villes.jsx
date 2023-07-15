@@ -1,4 +1,5 @@
 import './villes.scss'
+import localisation from '../../img/localisation.png'
 
 const Villes = () => {
   return (
@@ -11,7 +12,68 @@ const Villes = () => {
                 </div>
 
                 <div className="villes-container">
-                    
+                    <div className="villes-rows">
+                        <div className="villes-row">
+                            <div className="villes-image">
+                                <img src={localisation} alt="" className="villes-img" />
+                            </div>
+                            <h2>Kinshasa</h2>
+                        </div>
+                    </div>
+
+                    <div className="villes-rows">
+                        <div className="villes-row">
+                            <div className="villes-image">
+                                <img src={localisation} alt="" className="villes-img" />
+                            </div>
+                            <h2>Kongo central</h2>
+                        </div>
+                    </div>
+
+                    <div className="villes-rows">
+                        <div className="villes-row">
+                            <div className="villes-image">
+                                <img src={localisation} alt="" className="villes-img" />
+                            </div>
+                            <h2>Lubumbashi</h2>
+                        </div>
+                    </div>
+
+                    <div className="villes-rows">
+                        <div className="villes-row">
+                            <div className="villes-image">
+                                <img src={localisation} alt="" className="villes-img" />
+                            </div>
+                            <h2>Kolwezi</h2>
+                        </div>
+                    </div>
+
+                    <div className="villes-rows">
+                        <div className="villes-row">
+                            <div className="villes-image">
+                                <img src={localisation} alt="" className="villes-img" />
+                            </div>
+                            <h2>Sakania</h2>
+                        </div>
+                    </div>
+
+                    <div className="villes-rows">
+                        <div className="villes-row">
+                            <div className="villes-image">
+                                <img src={localisation} alt="" className="villes-img" />
+                            </div>
+                            <h2>Kasumbalesa</h2>
+                        </div>
+                    </div>
+
+                    <div className="villes-rows">
+                        <div className="villes-row">
+                            <div className="villes-image">
+                                <img src={localisation} alt="" className="villes-img" />
+                            </div>
+                            <h2>Kasumbalesa</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
