@@ -10,6 +10,15 @@
     .faq-wrapper{
         max-width: 1025px;
         margin: 0 auto;
+        @include mobile{
+            width: 400px;
+            flex-direction: column;
+        }
+        @include mobileXR{
+            width: 370px;
+            position: relative;
+            overflow: hidden;
+        }
         .client-cont-title{
             display: flex;
             flex-direction: column;
@@ -65,6 +74,10 @@
                 display: grid;
                 grid-template-columns: repeat(2,1fr);
                 gap: 20px;
+                @include mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
                 .question-row{
                     width: 100%;
                     display: flex;

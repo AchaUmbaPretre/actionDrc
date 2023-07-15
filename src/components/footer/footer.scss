@@ -9,6 +9,14 @@
         @include laptop{
             width: 900px;
         }
+        @include mobile{
+            width: 400px;
+        }
+        @include mobileXR{
+            width: 370px;
+            position: relative;
+            overflow: hidden;
+        }
         .experience-container{
             width: 100%;
             display: flex;
@@ -17,6 +25,10 @@
                 display: flex;
                 gap: 20px;
                 padding: 50px 0;
+                @include mobile{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                }
                 .footer-left{
                     flex: 2;
                     display: flex;

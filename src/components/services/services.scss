@@ -11,6 +11,11 @@
         @include mobile{
             width: 400px;
         }
+        @include mobileXR{
+            width: 370px;
+            position: relative;
+            overflow: hidden;
+        }
         .client-cont-title{
             display: flex;
             flex-direction: column;

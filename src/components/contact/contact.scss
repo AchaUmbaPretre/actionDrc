@@ -10,6 +10,14 @@
         @include laptop{
             width: 900px;
         }
+        @include mobile{
+            width: 400px;
+        }
+        @include mobileXR{
+            width: 370px;
+            position: relative;
+            overflow: hidden;
+        }
         .client-cont-title{
             display: flex;
             flex-direction: column;
@@ -63,6 +71,10 @@
             .contact-rows{
                 display: flex;
                 gap: 20px;
+                @include mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
                 .contact-left{
                     flex: 1;
                     border: 1px solid rgba(128, 128, 128, 0.336);
