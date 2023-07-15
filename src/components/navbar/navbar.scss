@@ -25,6 +25,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @include laptop{
+            width: 900px;
+         }
         @include tablette{
             display: flex;
             align-items: flex-start;

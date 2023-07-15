@@ -13,15 +13,23 @@
     }
    
     .apropos-wrapper{
+        position: relative;
         max-width: 1025px;
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(1, 60% 1fr);
         gap: 20px;
+        overflow: hidden;
 
+        @include laptop{
+           width: 900px;
+        }
         @include tablette{
             display: flex;
             flex-direction: column;
+        }
+        @include mobile{
+            width: 400px;
         }
 
         .apropos-left{
@@ -46,6 +54,9 @@
                     font-size: 2rem;
                     font-family: 'Anton', sans-serif;
                     color: rgb(21, 21, 65); 
+                    @include mobile{
+                        width: 80%;
+                    }
                 }
                 .apropos-barre{
                     position: relative;
@@ -109,6 +120,11 @@
             align-items: center;
             gap: 5px;
             height: 400px;
+            @include mobile{
+                display: flex;
+                flex-direction: column;
+                background: red;
+            }
             .apropos-right-left{
                 flex: 1;
                 position: relative;
@@ -124,6 +140,9 @@
                 width: 100%;
                 display: flex;
                 flex-direction: column;
+                @include mobile{
+                    display: flex;
+                }
                 .apropos-right-top{
                     flex: 1;
                     height: 400px;

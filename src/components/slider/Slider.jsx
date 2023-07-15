@@ -1,6 +1,6 @@
 import './slider.scss'
 import { Link } from 'react-router-dom'
-import illustrator from './../../img/illustrator.png'
+import logo from '../../img/actionssarl-removebg-preview.png'
 import { LocalPhoneOutlined, TrendingFlat } from '@mui/icons-material'
 const Slider = () => {
   return (
@@ -20,7 +20,7 @@ const Slider = () => {
                     </div>
                 </div>
                 <div className="slider-right">
-                    <img src={illustrator} alt="" className="slider-img" />
+                    <img src={logo} alt="" className="slider-img" />
                 </div>
             </div>
         </div>

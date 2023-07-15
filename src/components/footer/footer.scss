@@ -1,3 +1,4 @@
+@import '../../style.scss';
 .footer{
     width: 100%;
     padding: 20px 0;
@@ -5,6 +6,9 @@
     .footer-container{
         max-width: 1025px;
         margin: 0 auto;
+        @include laptop{
+            width: 900px;
+        }
         .experience-container{
             width: 100%;
             display: flex;
@@ -47,6 +51,15 @@
                         display: flex;
                         flex-direction: column;
                         gap: 10px;
+                        &::after{
+                            content: '';
+                            width: 45px;
+                            height: 2px;
+                            background: #747070;
+                            animation: anibar 5s infinite;
+                            position: relative;
+                            overflow: hidden;
+                        }
                     }
                     .footer-ul{
                         display: flex;
@@ -76,6 +89,15 @@
                         display: flex;
                         flex-direction: column;
                         gap: 10px;
+                        &::after{
+                            content: '';
+                            width: 45px;
+                            height: 2px;
+                            background: #747070;
+                            animation: anibar 5s infinite;
+                            position: relative;
+                            overflow: hidden;
+                        }
                     }
                     .footer-icons{
                         display: flex;
@@ -114,6 +136,15 @@
                         display: flex;
                         flex-direction: column;
                         gap: 10px;
+                        &::after{
+                            content: '';
+                            width: 45px;
+                            height: 2px;
+                            background: #747070;
+                            animation: anibar 5s infinite;
+                            position: relative;
+                            overflow: hidden;
+                        }
                     }
                     .footer-input{
                         border: none;

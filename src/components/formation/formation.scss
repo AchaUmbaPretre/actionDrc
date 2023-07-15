@@ -8,8 +8,12 @@
         display: flex;
         flex-wrap: wrap-reverse;
         gap: 30px;
+        @include laptop{
+            width: 900px;
+        }
         .formation-left{
             flex: 1;
+            width: 100%;
             .client-cont-title{
                 display: flex;
                 flex-direction: column;
@@ -68,6 +72,9 @@
         }
         .formation-right{
             flex: 1;
+            .formation-img{
+                width: 100%;
+            }
         }
         
     }

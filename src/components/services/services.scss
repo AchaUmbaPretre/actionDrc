@@ -5,6 +5,12 @@
     .services-wrapper{
         max-width: 1025px;
         margin: 0 auto;
+        @include laptop{
+            width: 900px;
+        }
+        @include mobile{
+            width: 400px;
+        }
         .client-cont-title{
             display: flex;
             flex-direction: column;
@@ -59,6 +65,10 @@
                 display: grid;
                 grid-template-columns: repeat(3,1fr);
                 gap:20px;
+                @include mobile{
+                    display: flex;
+                    flex-direction: column;
+                }
                 .services-row{
                     width: 100%;
                     margin-top: 20px;

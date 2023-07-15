@@ -7,6 +7,9 @@
     .contact-wrapper{
         max-width: 1025px;
         margin: 0 auto;
+        @include laptop{
+            width: 900px;
+        }
         .client-cont-title{
             display: flex;
             flex-direction: column;
