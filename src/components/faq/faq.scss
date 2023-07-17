@@ -10,9 +10,8 @@
     .faq-wrapper{
         max-width: 1025px;
         margin: 0 auto;
-        @include mobile{
-            width: 400px;
-            flex-direction: column;
+        @include tablette{
+            width: 870px;
         }
         @include mobileXR{
             width: 370px;

@@ -12,7 +12,7 @@ const Services = () => {
             <div className="services-wrapper">
                 <div className="client-cont-title">
                     <h1 className="client-title">NOS SERVICES</h1>
-                    <h1 className="client-sous-title">Nous proposons deux grands services pour répondre aux besoins de nos clients</h1>
+                    <h1 className="client-sous-title">Nous proposons 5 gammes de services pour répondre aux besoins de nos clients</h1>
                     <p className="apropos-barre"><span className="apropos-moov"></span></p>
                 </div>
                 <div className="services-container">

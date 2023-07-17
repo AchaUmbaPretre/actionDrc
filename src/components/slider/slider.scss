@@ -12,11 +12,8 @@
     @include laptop{
         height: calc(100vh - 50px);
     }
-    @include mobile{
-        height: calc(90vh - 50px);
-    }
     @include mobileXR{
-        height: calc(60vh - 50px);
+        height: calc(100vh - 50px);
     }
     @include mobileSE{
         height: calc(80vh - 50px);
@@ -48,6 +45,9 @@
             height: 100%;
             display: flex;
             flex-direction: column;
+            @include mobileXR{
+                align-items: center;
+            }
             .slider-h1{
                 font-family: 'Anton', sans-serif;
                 color: rgb(21, 21, 65);
@@ -55,7 +55,8 @@
                 letter-spacing: 1.5px;
                 font-weight: bolder;
                 @include mobileXR{
-                    font-size: 3rem;
+                    font-size: 2.8rem;
+                    text-align: center;
                 }
             }
 

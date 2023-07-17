@@ -13,7 +13,7 @@ const Clients = () => {
             <div className="client-wrapper">
                 <div className="client-cont-title">
                     <h1 className="client-title">NOS CLIENTS</h1>
-                    <h1 className="client-sous-title">Les entriprise qui nous font confiance</h1>
+                    <h1 className="client-sous-title">Les entreprises qui nous font confiance</h1>
                     <p className="apropos-barre"><span className="apropos-moov"></span></p>
                 </div>
                 <div className="client-container">

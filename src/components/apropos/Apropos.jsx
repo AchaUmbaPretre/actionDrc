@@ -1,7 +1,6 @@
 import {GppGood} from '@mui/icons-material'
-import douane1 from './../../img/douane1.jpg'
-import douane2 from './../../img/douane2.jpg'
-import douane3 from './../../img/douane3.jpg'
+import apropos1 from './../../img/apropos1.jpg'
+import apropos2 from './../../img/apropos2.jpg'
 import './apropos.scss'
 
 const Apropos = () => {
@@ -36,17 +35,8 @@ const Apropos = () => {
                   </div>
                 </div>
                 <div className="apropos-right">
-                  <div className="apropos-right-left">
-                    <img src={douane2} alt="" className="apropos-right-img" />
-                  </div>
-                  <div className="apropos-right-rows">
-                    <div className="apropos-right-top">
-                      <img src={douane1} alt="" className="apropos-img1" />
-                    </div>
-                      <div className="apropos-right-bottom">
-                        <img src={douane3} alt="" className="apropos-img1" />
-                      </div>
-                    </div>
+                 <img src={apropos1} alt="" className="apropos-img" />
+                 <img src={apropos2} alt="" className="apropos-img" />
                 </div>
             </div>
         </div>

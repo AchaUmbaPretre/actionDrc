@@ -16,8 +16,7 @@
         position: relative;
         max-width: 1025px;
         margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(1, 60% 1fr);
+        display: flex;
         gap: 20px;
         overflow: hidden;
 
@@ -27,6 +26,7 @@
         @include tablette{
             display: flex;
             flex-direction: column;
+            width: 870px;
         }
         @include mobile{
             width: 400px;
@@ -40,10 +40,11 @@
             width: 345px;
         }
         .apropos-left{
+            flex: 1;
+            width: 100%;
             display: flex;
             flex-direction: column;
             gap: 20px;
-
             .apropos-cont-title{
                 display: flex;
                 flex-direction: column;
@@ -121,52 +122,21 @@
             }
         }
         .apropos-right{
-            position: relative;
+            flex: 1;
             width: 100%;
             display: flex;
-            align-items: center;
-            gap: 5px;
-            height: 400px;
-            @include mobile{
-                display: flex;
-                flex-direction: column;
-                background: red;
-            }
-            .apropos-right-left{
-                flex: 1;
-                position: relative;
+            flex-direction: column;
+            gap: 10px;
+            @include tablette{
                 width: 100%;
-                .apropos-right-img{
-                    object-fit: cover;
+            }
+            .apropos-img{
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+                @include tablette{
                     width: 100%;
-                    height: 400px;
-                }
-            }
-            .apropos-right-rows{
-                flex: 1;
-                width: 100%;
-                display: flex;
-                flex-direction: column;
-                @include mobile{
-                    display: flex;
-                }
-                .apropos-right-top{
-                    flex: 1;
-                    height: 400px;
-                    .apropos-img1{
-                        width: 100%;
-                        height: 200px;
-                        object-fit: cover;
-                    }
-                }
-                .apropos-right-bottom{
-                    flex: 1;
-                    height: 400px;
-                    .apropos-img1{
-                        width: 100%;
-                        height: 200px;
-                        object-fit: cover;
-                    }
+                    height: 100%;
                 }
             }
         }
