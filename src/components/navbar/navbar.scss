@@ -16,6 +16,8 @@
 
     @include mobile{
         width: 100%;
+        position: relative;
+        overflow: hidden;
     } 
     .navbar-wrapper{
         width: 1025px;
@@ -31,7 +33,9 @@
 
         }
         @include mobileXR{
-            width: 370px;
+            width: 365px;
+            position: relative;
+            overflow: hidden;
 
         } 
         @include mobileSE{
@@ -56,11 +60,15 @@
                 padding-top: 40px;
                 height: 100vh;
                 width: 50%;
-                right: -600px;
+                right: 0;
                 background: linear-gradient(rgb(21, 21, 65),rgba(13, 13, 36, 0.911));
                 flex-direction: column;
                 transition: 0.7s;
-            } 
+            }
+            @include mobile{
+                height: 100%;
+                width: 50%;
+            }
             .navbar-link{
                 display: flex;
                 align-items: center;
