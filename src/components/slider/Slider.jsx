@@ -1,7 +1,7 @@
 import './slider.scss'
 import { Link } from 'react-router-dom'
 import logo from '../../img/illustrator1.png'
-import { LocalPhoneOutlined, TrendingFlat } from '@mui/icons-material'
+import { OfflinePinIcon , TrendingFlat } from '@mui/icons-material'
 const Slider = () => {
   return (
     <>
@@ -15,8 +15,8 @@ const Slider = () => {
                     dans les zones minières à forte activité économique.
                     </p>
                     <div className="slider-rows-btn">
-                        <Link href="" className="slider-btn">savoir plus <TrendingFlat className='icons-btn'/></Link>
-                        <Link href="" className="slider-btn slider-diff">contactez nous <TrendingFlat className='icons-btn'/></Link>
+                        <Link href="" className="slider-btn">savoir plus <OfflinePinIcon className='icons-btn'/></Link>
+                        <Link href="" className="slider-btn slider-diff">contactez nous <OfflinePinIcon className='icons-btn'/></Link>
                     </div>
                 </div>
                 <div className="slider-right" data-aos="fade-up-left">
