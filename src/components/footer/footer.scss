@@ -89,7 +89,7 @@
                     .footer-ul{
                         display: flex;
                         flex-direction: column;
-                        gap: 10px;
+                        gap: 6px;
                         @include mobileXR{
                             gap: 5px;
                         }

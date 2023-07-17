@@ -2,7 +2,7 @@
 
 .apropos{
     width: 100%;
-    margin: 50px 0;
+    margin: 100px 0;
     @include tablette{
         display: flex;
         flex-direction: column;
@@ -10,6 +10,7 @@
     }
     @include mobile{
         padding: 20px;
+        margin: 50px 0;
     }
    
     .apropos-wrapper{
