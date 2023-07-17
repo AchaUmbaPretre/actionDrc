@@ -17,7 +17,9 @@
     } 
 
     @include mobile{
-       
+       width: 100%;
+       position: relative;
+       overflow: hidden;
     } 
     .navbar-wrapper{
         width: 1025px;
