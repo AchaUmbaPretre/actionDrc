@@ -41,7 +41,7 @@
             overflow: hidden;
         }
         @include mobileSE{
-            width: 345px;
+            width: 340px;
         }
         .slider-left{
             flex: 1;
@@ -60,6 +60,13 @@
                 @include mobileXR{
                     font-size: 2.1rem;
                     text-align: center;
+                }
+                @include mobileSE{
+                    color: transparent;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: rgb(21, 21, 65);
+                    font-size: 2.5rem;
+                    letter-spacing: 15;
                 }
             }
 

@@ -44,6 +44,10 @@
                             object-fit: cover;
                             border-radius: 50%;
                             margin-bottom: 20px;
+                            @include mobileXR{
+                                height: 50px;
+                                width: 50px;
+                            }
                         }
                     }
                     .footer-desc{
