@@ -54,9 +54,12 @@
             .slider-h1{
                 font-family: 'Anton', sans-serif;
                 color: rgb(21, 21, 65);
-                font-size: 3.2rem;
-                letter-spacing: 1.5px;
+                font-size: 3.8rem;
+                letter-spacing: 5px;
                 font-weight: bolder;
+                color: transparent;
+                    -webkit-text-stroke-width: 3px;
+                    -webkit-text-stroke-color: rgb(21, 21, 65);
                 @include mobileXR{
                     font-size: 2.1rem;
                     text-align: center;
@@ -115,7 +118,7 @@
                 }
                 .slider-diff{
                     transition: .5s;
-                    background: rgb(21, 21, 65);
+                    background: rgba(15, 15, 54, 0.952);
                     color: #fff;
                     &:hover{
                         border : 2px solid rgb(21, 21, 65);

@@ -1,6 +1,6 @@
 import './slider.scss'
 import { Link } from 'react-router-dom'
-import logo from '../../img/actionssarl-removebg-preview.png'
+import logo from '../../img/illustrator1.png'
 import { LocalPhoneOutlined, TrendingFlat } from '@mui/icons-material'
 const Slider = () => {
   return (
