@@ -16,6 +16,9 @@
             position: relative;
             overflow: hidden;
         }
+        @include mobile12pro{
+            width: 350px;
+        }
         @include mobileSE{
             width: 345px;
         }

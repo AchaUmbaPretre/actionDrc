@@ -15,6 +15,9 @@
         @include mobileXR{
             width: 370px;
         }
+        @include mobile12pro{
+            width: 350px;
+        }
         @include mobileSE{
             width: 345px;
         }
