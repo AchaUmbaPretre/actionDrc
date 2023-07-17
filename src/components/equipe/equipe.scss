@@ -9,9 +9,6 @@
         @include laptop{
             width: 900px;
         }
-        @include mobile{
-            width: 400px;
-        }
         @include mobileXR{
             width: 370px;
             position: relative;
@@ -72,6 +69,7 @@
                 width: 100%;
                 display: grid;
                 grid-template-columns: repeat(3,1fr);
+                align-items: center;
                 gap: 40px;
                 @include mobile{
                     display: flex;
@@ -118,6 +116,9 @@
                                 font-weight: 700;
                                 letter-spacing: 1.5px;
                                 color: rgb(49, 48, 48);
+                                @include mobile{
+                                    font-size: .9rem;
+                                }
                             }
                             .equipe-h3{
                                 font-family: 'Anton', sans-serif;
@@ -125,6 +126,9 @@
                                 font-weight: 200;
                                 font-size: .8rem;
                                 color: gray;
+                                @include mobile{
+                                    font-size: .7rem;
+                                }
                             }
                             .equipe-rx{
                                 display: flex;
@@ -139,6 +143,10 @@
                                     width: 35px;
                                     border-radius: 50%;
                                     border: 1px solid gray;
+                                    @include mobile{
+                                        height: 25px;
+                                        width: 25px;
+                                    }
                                     cursor: pointer;
                                     &:hover{
                                         transform: scale(1.1);
@@ -146,6 +154,9 @@
                                     .equipe-icon{
                                         color: rgb(49, 48, 48);
                                         font-size: 1.4rem;
+                                        @include mobile{
+                                            font-size: 1rem;
+                                        }
                                     }
                                 }
                             }

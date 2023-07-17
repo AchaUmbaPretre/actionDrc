@@ -13,7 +13,7 @@
         height: calc(100vh - 50px);
     }
     @include mobileXR{
-        height: calc(100vh - 50px);
+        height: calc(70vh - 50px);
     }
     @include mobileSE{
         height: calc(80vh - 50px);
@@ -55,7 +55,7 @@
                 letter-spacing: 1.5px;
                 font-weight: bolder;
                 @include mobileXR{
-                    font-size: 2.8rem;
+                    font-size: 2.1rem;
                     text-align: center;
                 }
             }
@@ -90,9 +90,17 @@
                     font-size: .9rem;
                     transition: .5s;
                     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.151);
+                    @include mobileXR{
+                        padding: 6px 10px;
+                        font-size: .8rem;
+                    }
                     &:hover{
                         background: rgb(21, 21, 65);
                         color: #fff;
+                    }
+                    .icons-btn{
+                        width: 20px;
+                        margin-left: 5px;
                     }
                 }
                 .slider-diff{

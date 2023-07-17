@@ -28,9 +28,6 @@
             flex-direction: column;
             width: 870px;
         }
-        @include mobile{
-            width: 400px;
-        }
         @include mobileXR{
             width: 370px;
             position: relative;
