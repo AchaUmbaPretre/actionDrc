@@ -6,7 +6,7 @@ import logo from '../../img/actionssarl.PNG'
 const Footer = () => {
   return (
     <>
-         <footer className="footer">
+         <footer className="footer" data-aos="fade-up">
         <div className="footer-container">
             <div className="experience-container">
                 <div className="footer-rows">

@@ -17,22 +17,22 @@ const Clients = () => {
                     <p className="apropos-barre"><span className="apropos-moov"></span></p>
                 </div>
                 <div className="client-container">
-                    <div className="client-row">
+                    <div className="client-row" data-aos="fade-up">
                         <img src={CHINA} alt="" className="client-img" />
                     </div>
-                    <div className="client-row">
+                    <div className="client-row" data-aos="fade-up">
                         <img src={CNSS} alt="" className="client-img" />
                     </div>
-                    <div className="client-row">
+                    <div className="client-row" data-aos="fade-up">
                         <img src={GECAMINE} alt="" className="client-img" />
                     </div>
-                    <div className="client-row">
+                    <div className="client-row" data-aos="fade-up">
                         <img src={RVA} alt="" className="client-img" />     
                     </div>
-                    <div className="client-row">
+                    <div className="client-row" data-aos="fade-up">
                         <img src={snel} alt="" className="client-img" />
                     </div>
-                    <div className="client-row">
+                    <div className="client-row" data-aos="fade-up">
                         <img src={jmc} alt="" className="client-img" />   
                     </div>
                 </div>

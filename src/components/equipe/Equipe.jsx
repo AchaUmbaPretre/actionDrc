@@ -10,7 +10,7 @@ import { FacebookOutlined, Instagram, LinkedIn, Twitter } from '@mui/icons-mater
 const Equipe = () => {
   return (
     <>
-        <div className="equipe">
+        <div className="equipe" id="equipe">
             <div className="equipe-wrapper">
                 <div className="client-cont-title">
                     <h1 className="client-sous-title">NOTRE EQUIPE</h1>
@@ -19,7 +19,7 @@ const Equipe = () => {
 
                 <div className="equipe-container">
                     <div className="equipe-rows">
-                        <div className="equipe-row">
+                        <div className="equipe-row" data-aos="zoom-in-up">
                             <div className="equipe-top">
                                 <img src={nana} alt="" className="equipe-img" />
                             </div>
@@ -45,7 +45,7 @@ const Equipe = () => {
                             </div>
                         </div>
 
-                        <div className="equipe-row">
+                        <div className="equipe-row" data-aos="zoom-in-up">
                             <div className="equipe-top">
                                 <img src={faustin} alt="" className="equipe-img" />
                             </div>
@@ -71,7 +71,7 @@ const Equipe = () => {
                             </div>
                         </div>
 
-                        <div className="equipe-row">
+                        <div className="equipe-row" data-aos="zoom-in-up">
                             <div className="equipe-top">
                                 <img src={nesto} alt="" className="equipe-img" />
                             </div>
@@ -97,7 +97,7 @@ const Equipe = () => {
                             </div>
                         </div>
 
-                        <div className="equipe-row">
+                        <div className="equipe-row" data-aos="zoom-in-up">
                             <div className="equipe-top">
                                 <img src={maxim} alt="" className="equipe-img" />
                             </div>
@@ -123,7 +123,7 @@ const Equipe = () => {
                             </div>
                         </div>
 
-                        <div className="equipe-row">
+                        <div className="equipe-row" data-aos="zoom-in-up">
                             <div className="equipe-top">
                                 <img src={patrick} alt="" className="equipe-img" />
                             </div>
@@ -149,7 +149,7 @@ const Equipe = () => {
                             </div>
                         </div>
 
-                        <div className="equipe-row">
+                        <div className="equipe-row" data-aos="zoom-in-up">
                             <div className="equipe-top">
                                 <img src={jeremi} alt="" className="equipe-img" />
                             </div>

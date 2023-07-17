@@ -6,9 +6,9 @@ import './apropos.scss'
 const Apropos = () => {
   return (
     <>
-        <div className="apropos">
+        <div className="apropos" id="apropos">
             <div className="apropos-wrapper">
-                <div className="apropos-left">
+                <div className="apropos-left" data-aos="fade-right">
                   <div className="apropos-cont-title">
                     <h1 className="apropos-h1">A PROPOS DE NOUS</h1>
                     <h1 className="apropos-sous-title">Nous sommes une entreprise de droit congolais</h1>
@@ -23,7 +23,7 @@ const Apropos = () => {
                     clientèle hétéroclite.
 
                   </p>
-                  <div className="apropos-rows">
+                  <div className="apropos-rows" data-aos="fade-right">
                     <div className="apropos-row">
                       <GppGood className='apropos-icon'/>
                       <h4 className="apropos-h4">Integrité</h4>
@@ -35,8 +35,8 @@ const Apropos = () => {
                   </div>
                 </div>
                 <div className="apropos-right">
-                 <img src={apropos1} alt="" className="apropos-img" />
-                 <img src={apropos2} alt="" className="apropos-img" />
+                 <img src={apropos1} alt="" className="apropos-img" data-aos="zoom-in-up" />
+                 <img src={apropos2} alt="" className="apropos-img" data-aos="zoom-in-up" />
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@ const Services = () => {
                 </div>
                 <div className="services-container">
                     <div className="services-rows">
-                        <div className="services-row">
+                        <div className="services-row" data-aos="zoom-in-up">
                             <div className="services-image">
                                 <img src={expo} alt="" className="service-img" />
                             </div>
@@ -34,7 +34,7 @@ const Services = () => {
                             </div>
                         </div>
 
-                        <div className="services-row">
+                        <div className="services-row" data-aos="zoom-in-up">
                             <div className="services-image">
                                 <img src={logistique} alt="" className="service-img" />
                             </div>
@@ -51,7 +51,7 @@ const Services = () => {
                             </div>
                         </div>
 
-                        <div className="services-row">
+                        <div className="services-row" data-aos="zoom-in-up">
                             <div className="services-image">
                                 <img src={DRH} alt="" className="service-img" />
                             </div>
@@ -67,7 +67,7 @@ const Services = () => {
                             </div>
                         </div>
 
-                        <div className="services-row">
+                        <div className="services-row" data-aos="zoom-in-up">
                             <div className="services-image">
                                 <img src={consulting} alt="" className="service-img" />
                             </div>
@@ -84,7 +84,7 @@ const Services = () => {
                             </div>
                         </div>
 
-                        <div className="services-row">
+                        <div className="services-row" data-aos="zoom-in-up">
                             <div className="services-image">
                                 <img src={hydro} alt="" className="service-img" />
                             </div>
@@ -100,8 +100,6 @@ const Services = () => {
                                 <a href="" className="service-btn">savoir plus</a>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>

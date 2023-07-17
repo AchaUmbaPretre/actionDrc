@@ -1,6 +1,19 @@
 import './faq.scss'
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import AddIcon from '@mui/icons-material/Add';
+import MinimizeIcon from '@mui/icons-material/Minimize';
+import {data} from './data.js'
+import { useState } from 'react';
 const Faq = () => {
+
+    const [open, setOpen] = useState(null)
+
+    const handClick = (i) =>{
+        if(open === i){
+            return setOpen(null)
+        }
+        setOpen(i)
+    }
+
   return (
     <>
         <div className="faq">
@@ -12,7 +25,19 @@ const Faq = () => {
                 </div>
                 <div className="faq-container">
                     <div className="faq-rows">
-                        <div class="question-row">
+                    { data.map((item,i) =>(
+                        <div className="question-row" key={i} onClick={()=>handClick(i)} data-aos="fade-down">
+                            <div className="visible-pannel">
+                                <h2 className="question-h2">{item.question}</h2>
+                                {open === i ? <MinimizeIcon className='icons-plus'/>:<AddIcon className='icons-plus'/>   }
+                            </div>
+                            <div className={open === i ? "toggle-pannel active" : "toggle-pannel" }>
+                                <p className="question-desc">
+                                    {item.answer}
+                                </p>
+                            </div>
+                        </div> ))}
+                        {/* <div class="question-row">
                             <div class="visible-pannel">
                                 <h2 class="question-h2">Qu'est-ce qu'une agence en douane et en quoi consiste votre activité ?</h2>
                                 <ExpandMoreIcon className='icons-plus'/>
@@ -24,9 +49,9 @@ const Faq = () => {
                                 fournissant des conseils et des services adaptés à leurs besoins.
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div class="question-row">
+{/*                         <div class="question-row">
                             <div class="visible-pannel">
                                 <h2 class="question-h2">Quels sont les avantages de faire appel à une agence en douane pour mes transactions internationales ?</h2>
                                 <ExpandMoreIcon className='icons-plus'/>
@@ -38,9 +63,9 @@ const Faq = () => {
                                 de coûts supplémentaires, en vous permettant de vous concentrer sur votre activité principale.
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div class="question-row">
+                        {/* <div class="question-row">
                             <div class="visible-pannel">
                                 <h2 class="question-h2">Quels types de services offrez-vous en matière de douane ?</h2>
                                 <ExpandMoreIcon className='icons-plus'/>
@@ -53,9 +78,9 @@ const Faq = () => {
                                 la résolution des contentieux liés à la douane
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div class="question-row">
+{/*                         <div class="question-row">
                             <div class="visible-pannel">
                                 <h2 class="question-h2">Comment pouvez-vous aider les petites entreprises qui n'ont pas d'expérience en matière de transactions internationales ?</h2>
                                 <ExpandMoreIcon className='icons-plus'/>
@@ -95,9 +120,9 @@ const Faq = () => {
                                 du temps et de l'argent tout en vous offrant une plus grande flexibilité dans la gestion de votre personnel. De plus nous formons gratuitement votre personnel.
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div class="question-row">
+{/*                         <div class="question-row">
                             <div class="visible-pannel">
                                 <h2 class="question-h2">Comment ça se passe pour le personnel de maison ?</h2>
                                 <ExpandMoreIcon className='icons-plus'/>
@@ -125,7 +150,7 @@ const Faq = () => {
                                 Dans bien des cas, elles travaillent pendant des années sans contrat et sans le moindre.
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

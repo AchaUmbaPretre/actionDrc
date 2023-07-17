@@ -14,7 +14,7 @@ const Contact = () => {
 
                 <div className="contact-container">
                     <div className="contact-rows">
-                        <div className="contact-left">
+                        <div className="contact-left" data-aos="fade-down-right">
                             <div className="contact-left-rows">
                                 <div className="contact-row">
                                     <div className="contact-row-icon">
@@ -58,7 +58,7 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="contact-right">
+                        <div className="contact-right" data-aos="fade-down-left">
                             <form action="">
                                 <div className="form-control">
                                     <input type="text" className="input-controle" placeholder='Entrez votre nom...' />

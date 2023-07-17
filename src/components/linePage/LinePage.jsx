@@ -3,8 +3,8 @@ import './linePage.scss'
 const LinePage = () => {
   return (
     <>
-        <div class="footer-bottom">
-            <p class="footer-copy">©LoginSmort. tous droits réservés</p>
+        <div className="footer-bottom">
+            <p className="footer-copy">©LoginSmort. tous droits réservés</p>
         </div>
     </>
   )

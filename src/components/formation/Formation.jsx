@@ -5,7 +5,7 @@ const Formation = () => {
     <>
         <div className="formation">
             <div className="formation-wrapper">
-                <div className="formation-left">
+                <div className="formation-left" data-aos="fade-up-right">
                     <div className="client-cont-title">
                         <h1 className="client-title">Formation</h1>
                         <h1 className="client-sous-title">moteur de développement</h1>
@@ -21,7 +21,7 @@ const Formation = () => {
                     </div>
                 </div>
 
-                <div className="formation-right">
+                <div className="formation-right" data-aos="fade-up-left">
                     <img src={formation} alt="" className="formation-img" />
                 </div>
             </div>
