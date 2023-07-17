@@ -1,4 +1,5 @@
 import './services.scss'
+import { Link } from 'react-router-dom'
 import expo from "../../img/import-export.jpg"
 import logistique from "../../img/logistique1.jpg"
 import consulting from "../../img/consulting1.jpg"
@@ -30,7 +31,7 @@ const Services = () => {
                                     des ressources humaines, consulting et expertise en hydrocarbure, basée à Kinshasa,
                                     Capitale de la République Démocratique du Congo (RDC).
                                 </p>
-                                <a href="" className="service-btn">savoir plus</a>
+                                <Link to="" className="service-btn">savoir plus</Link>
                             </div>
                         </div>
 
@@ -47,7 +48,7 @@ const Services = () => {
                                 des ressources humaines, consulting et expertise en hydrocarbure, basée à Kinshasa,
                                 Capitale de la République Démocratique du Congo (RDC).
                                 </p>
-                                <a href="" className="service-btn">savoir plus</a>
+                                <Link to="" className="service-btn">savoir plus</Link>
                             </div>
                         </div>
 
@@ -63,7 +64,7 @@ const Services = () => {
                                     Toujours dans le cadre d'offrir l'emploi à la population, Actions Sarl se lance dans le recrutement, la formation 
                                     et placement du personnel à un coût très abordable.
                                 </p>
-                                <a href="" className="service-btn">savoir plus</a>
+                                <Link to="" className="service-btn">savoir plus</Link>
                             </div>
                         </div>
 
@@ -80,7 +81,7 @@ const Services = () => {
                                 des ressources humaines, consulting et expertise en hydrocarbure, basée à Kinshasa,
                                 Capitale de la République Démocratique du Congo (RDC).
                                 </p>
-                                <a href="" className="service-btn">savoir plus</a>
+                                <Link to="" className="service-btn">savoir plus</Link>
                             </div>
                         </div>
 
@@ -97,7 +98,7 @@ const Services = () => {
                                     d'échantillonnage, prenant en compte la procédure de conclusion du contrat de partage et de production (CPP) jusqu'à la maintenance 
                                     des gazoducs ou tous types d'installations industrielles de traitement ou de stockage des gaz ou hydrocarbure.
                                 </p>
-                                <a href="" className="service-btn">savoir plus</a>
+                                <Link to="" className="service-btn">savoir plus</Link>
                             </div>
                         </div>
                     </div>
