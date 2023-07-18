@@ -32,12 +32,12 @@ const Navbar = () => {
                 <img src={actions} alt="" className="navbar-logo"/>
                 <div className="navbar-right">
                     <ul className={ bar ? "navbar-ul navbarOpen" : "navbar-ul"}>
-                        <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Accueil</Link></li>
-                        <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Apropos</Link></li>
-                        <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Equipe</Link></li>
-                        <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Services</Link></li>
-                        <li className="navbar-li"><Link to={''} className={active ? "bleu-link" : "navbar-link"}>Faq</Link></li>
-                        <li className="navbar-li"><Link to={''}  className={active ? "bleu-link" : "navbar-link"}>Contact</Link></li>
+                        <li className="navbar-li"><a href={'#accueil'} className={active ? "bleu-link" : "navbar-link"}>Accueil</a></li>
+                        <li className="navbar-li"><a href={'#apropos'} className={active ? "bleu-link" : "navbar-link"}>Apropos</a></li>
+                        <li className="navbar-li"><a href={'#equipe'} className={active ? "bleu-link" : "navbar-link"}>Equipe</a></li>
+                        <li className="navbar-li"><a href={'#services'} className={active ? "bleu-link" : "navbar-link"}>Services</a></li>
+                        <li className="navbar-li"><a href={'#faq'} className={active ? "bleu-link" : "navbar-link"}>Faq</a></li>
+                        <li className="navbar-li"><a href={'#contact'}  className={active ? "bleu-link" : "navbar-link"}>Contact</a></li>
                         <div className={active ? "navbar-rsx-blue" : "navbar-rsx"}>
                             <FacebookOutlined className='navbar-icon'/>
                             <Twitter className='navbar-icon'/>

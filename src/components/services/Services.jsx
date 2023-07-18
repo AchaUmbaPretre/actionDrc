@@ -9,7 +9,7 @@ import hydro from '../../img/hydro.jpg'
 const Services = () => {
   return (
     <>
-        <div className="services">
+        <div className="services" id='services'>
             <div className="services-wrapper">
                 <div className="client-cont-title">
                     <h1 className="client-title">NOS SERVICES</h1>

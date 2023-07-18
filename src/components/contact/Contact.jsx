@@ -1,11 +1,10 @@
 import { LocationOn, Mail, Phone } from '@mui/icons-material'
 import './contact.scss'
-import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
     <>
-        <div className="contact">
+        <div className="contact" id='contact'>
             <div className="contact-wrapper">
                 <div className="client-cont-title">
                     <h1 className="client-sous-title client-bg">Contact</h1>
@@ -32,7 +31,7 @@ const Contact = () => {
                                     </div>
                                     <div className="contact-row-text">
                                         <h2 className="contact-text-h2">Email:</h2>
-                                        <span className="contact-txt"><Link to='https://info@actionsdrc.Com' className="contact-txt" >info@actionsdrc.Com</Link></span>
+                                        <span className="contact-txt"><a href='https://info@actionsdrc.Com' className="contact-txt" >info@actionsdrc.Com</a></span>
                                     </div>
                                 </div>
 
@@ -68,7 +67,7 @@ const Contact = () => {
                                     <input type="text" className="input-controle" placeholder='Objectif...' />
                                 </div>
                                 <textarea name="" id="" rows="20" placeholder='message...'></textarea>
-                                <Link type='submit' className="contact-submit">Envoyer le message</Link>
+                                <a type='submit' className="contact-submit">Envoyer le message</a>
                             </form>
                         </div>
                     </div>
