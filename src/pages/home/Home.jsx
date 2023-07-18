@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <>
         <div>
-            <div className="home-containeer">
+            <div className="home-container">
                 <Topbar/>
                 <div className="home-navbar">
                     <Navbar/>

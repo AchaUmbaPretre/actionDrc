@@ -18,7 +18,11 @@
         @content;
     }
 }
-
+@mixin miniTablette{
+    @media (max-width: 568px) {
+        @content;
+    }
+}
 @mixin tablette{
     @media (max-width: 960px) {
         @content;

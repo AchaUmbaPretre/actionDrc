@@ -13,7 +13,7 @@
         height: calc(100vh - 50px);
     }
     @include mobileXR{
-        height: calc(55vh - 50px);
+        height: calc(60vh - 50px);
     }
     @include mobileSE{
         height: calc(80vh - 50px);
