@@ -22,12 +22,12 @@ const Footer = () => {
                     <div className="footer-center1">
                         <h2 className="footer-h2">Get Help</h2>
                         <ul className="footer-ul">
-                            <li><Link to="#accueil" className="footerLi">Accueil</Link></li>
-                            <li><Link to="#apropos" className="footerLi">A propos</Link></li>
-                            <li><Link to="#apropos" className="footerLi">Equipe</Link></li>
-                            <li><Link to="#services" className="footerLi">Services</Link></li>
-                            <li><Link to="#faq" className="footerLi">Faq</Link></li>
-                            <li><Link to="#contact" className="footerLi">Contact</Link></li>
+                            <li><a href="#accueil" className="footerLi">Accueil</a></li>
+                            <li><a href="#apropos" className="footerLi">A propos</a></li>
+                            <li><a href="#apropos" className="footerLi">Equipe</a></li>
+                            <li><a href="#services" className="footerLi">Services</a></li>
+                            <li><a href="#faq" className="footerLi">Faq</a></li>
+                            <li><a href="#contact" className="footerLi">Contact</a></li>
                         </ul>
                     </div>
                     <div className="footer-center2">
@@ -49,7 +49,7 @@ const Footer = () => {
                         <div className="footer-icons">
                             <Mail className='icons-footer'/>
                             <div className="footer-right-row">
-                                <div className="footer-desc"><Link to="https://Info@actionsdrc.com" className="footer-desc">Info@actionsdrc.com</Link></div>
+                                <div className="footer-desc"><a href="https://Info@actionsdrc.com" className="footer-desc">Info@actionsdrc.com</a></div>
                             </div>
                         </div>
                     </div>

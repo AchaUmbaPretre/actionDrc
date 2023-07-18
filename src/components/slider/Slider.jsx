@@ -17,8 +17,8 @@ const Slider = () => {
                     dans les zones minières à forte activité économique.
                     </p>
                     <div className="slider-rows-btn">
-                        <Link href="" className="slider-btn">savoir plus <PlayCircleIcon className='icons-btn'/></Link>
-                        <Link href="" className="slider-btn slider-diff">contactez nous <TrendingFlat className='icons-btn'/></Link>
+                        <a href="#apropos" className="slider-btn">savoir plus <PlayCircleIcon className='icons-btn'/></a>
+                        <a href="#contact" className="slider-btn slider-diff">contactez nous <TrendingFlat className='icons-btn'/></a>
                     </div>
                 </div>
                 <div className="slider-right" data-aos="fade-up-left">

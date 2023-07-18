@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(90vh - 50px);
+    height: calc(100vh - 50px);
     background: linear-gradient(rgba(104, 104, 158, 0.055),rgba(81, 81, 180, 0.021)),url('./../../img/hero-bg.png') no-repeat;
     background-position: center;
     @include laptop{
@@ -54,7 +54,7 @@
             .slider-h1{
                 font-family: 'Anton', sans-serif;
                 color: rgb(21, 21, 65);
-                font-size: 3.8rem;
+                font-size: 3.2rem;
                 letter-spacing: 5px;
                 font-weight: bolder;
                 color: transparent;
