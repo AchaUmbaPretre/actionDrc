@@ -58,7 +58,10 @@
                 flex-direction: column;
                 gap: 10px;
                 position: relative;
-
+                @include mobile{
+                    text-align: center;
+                    align-items: center;
+                }
                 .apropos-h1{
                     font-size: 1.2rem;
                     color: rgb(21, 21, 65);
@@ -71,7 +74,7 @@
                     font-family: 'Anton', sans-serif;
                     color: rgb(21, 21, 65); 
                     @include mobile{
-                        width: 80%;
+                        width: 100%;
                     }
                 }
                 .apropos-barre{

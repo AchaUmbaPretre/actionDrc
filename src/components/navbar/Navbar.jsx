@@ -45,7 +45,7 @@ const Navbar = () => {
                             <LinkedIn className='navbar-icon'/>
                         </div>
                     </ul>
-                    {bar ? <CloseIcon className='navbar-bar' onClick={handBar}/>:<ClearAllIcon className='navbar-bar' onClick={handBar}/> }
+                    {bar ? <CloseIcon className='navbar-bar active-red' onClick={handBar}/>:<ClearAllIcon className='navbar-bar' onClick={handBar}/> }
                 </div>
             </div>
         </div>

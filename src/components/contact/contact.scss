@@ -187,6 +187,8 @@
                             font-size: .9rem;
                             height: 40px;
                             transition: 0.5s;
+                            cursor: pointer;
+                            border: none;
                             &:hover{
                                 border: 2px solid rgb(10, 10, 15);
                                 color: rgb(10, 10, 15);

@@ -13,10 +13,11 @@
         height: calc(100vh - 50px);
     }
     @include mobileXR{
-        height: calc(60vh - 50px);
+        background: linear-gradient(rgba(104, 104, 158, 0.521),rgba(81, 81, 180, 0.247)),url('./../../img/apropos4.jpg') no-repeat;
+        height: calc(43vh - 50px);
     }
     @include mobileSE{
-        height: calc(80vh - 50px);
+        height: calc(55vh - 50px);
         width: 100%;
         position: relative;
         overflow: hidden;
@@ -54,20 +55,24 @@
             .slider-h1{
                 font-family: 'Anton', sans-serif;
                 color: rgb(21, 21, 65);
-                font-size: 3.2rem;
+                font-size: 3.8rem;
                 letter-spacing: 5px;
                 font-weight: bolder;
                 color: transparent;
                     -webkit-text-stroke-width: 3px;
                     -webkit-text-stroke-color: rgb(21, 21, 65);
                 @include mobileXR{
-                    font-size: 2.1rem;
+                    font-size: 2.8rem;
                     text-align: center;
+                    color: transparent;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: #fff;
+                    letter-spacing: 15;
                 }
                 @include mobileSE{
                     color: transparent;
                     -webkit-text-stroke-width: 1px;
-                    -webkit-text-stroke-color: rgb(21, 21, 65);
+                    -webkit-text-stroke-color: #fff;
                     font-size: 2.5rem;
                     letter-spacing: 15;
                 }
@@ -86,6 +91,7 @@
                     font-weight: 800;
                 }
                 @include mobileXR{
+                    display: none;
                     font-size: .9rem;
                 }
             }
@@ -104,12 +110,18 @@
                     transition: .5s;
                     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.151);
                     @include mobileXR{
-                        padding: 6px 10px;
+                        border : 2px solid #fff;
+                        color: #fff;
+                        margin-top: 50px;
+                        padding: 5px 10px;
                         font-size: .8rem;
+                        border-radius: 0;
+                        border-top-left-radius: 0;
+                        border-bottom-left-radius: 40%;
                     }
                     &:hover{
-                        background: rgb(21, 21, 65);
-                        color: #fff;
+                        background: #fff;
+                        color: rgb(21, 21, 65);
                     }
                     .icons-btn{
                         width: 20px;
@@ -120,6 +132,16 @@
                     transition: .5s;
                     background: rgba(15, 15, 54, 0.952);
                     color: #fff;
+                    @include mobileXR{
+                        border : 2px solid #fff;
+                        color: #fff;
+                        margin-top: 50px;
+                        padding: 5px 10px;
+                        font-size: .8rem;
+                        border-radius: 0;
+                        border-top-right-radius: 0;
+                        border-bottom-right-radius: 40%;
+                    }
                     &:hover{
                         border : 2px solid rgb(21, 21, 65);
                         color: rgb(21, 21, 65);
