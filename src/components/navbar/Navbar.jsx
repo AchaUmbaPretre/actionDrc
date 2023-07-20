@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './navbar.scss'
-import { Link } from 'react-router-dom'
 import {FacebookOutlined, Instagram, LinkedIn,Twitter } from '@mui/icons-material'
 import ClearAllIcon from '@mui/icons-material/ClearAll';
 import CloseIcon from '@mui/icons-material/Close';
