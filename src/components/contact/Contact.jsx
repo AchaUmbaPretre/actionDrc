@@ -16,7 +16,7 @@ const Contact = () => {
         var data = {name:name, email:email, objectif:objectif, message: message};
         console.log(data)
 
-        emailjs.send('service_njlmxon', 'template_iveurhc', data, 'tYX9g0nQroGqMMv5F')
+        emailjs.send('service_kymooqf', 'template_iveurhc', data, 'tYX9g0nQroGqMMv5F')
         .then((result) => {
             alert('le message est envoyé avec succès');
             console.log(result)
