@@ -27,9 +27,9 @@ const Services = () => {
                                     <h2 className="service-h2">IMPORT & EXPORT</h2>
                                 </div>
                                 <p className="service-desc">
-                                    Une société à capitaux congolais d'Import et Export, de dédouanement, Logistique,
-                                    des ressources humaines, consulting et expertise en hydrocarbure, basée à Kinshasa,
-                                    Capitale de la République Démocratique du Congo (RDC).
+                                    Nous organisons vos flux de marchandises avec sécurité, confiance et célérité et tenant compte de votre budget.
+                                    En sa qualité de commissionnaire en douane agréée par la Direction Générale des Douanes et Accises (DGDA), Actions
+                                    Sarl prend en charge toutes les opérations liées au pré-dédouanement, dédouanement et post-dédouanement.
                                 </p>
                                 <Link to="" className="service-btn">savoir plus</Link>
                             </div>
@@ -44,9 +44,7 @@ const Services = () => {
                                     <h2 className="service-h2">LOGISTIQUE</h2>
                                 </div>
                                 <p className="service-desc">
-                                Une société à capitaux congolais d'Import et Export, de dédouanement, Logistique,
-                                des ressources humaines, consulting et expertise en hydrocarbure, basée à Kinshasa,
-                                Capitale de la République Démocratique du Congo (RDC).
+                                    Actions Sarl assure le suivi de la circulation de vos marchandises par les voies ferroviaires, aériennes ou maritimes.
                                 </p>
                                 <Link to="" className="service-btn">savoir plus</Link>
                             </div>
@@ -62,7 +60,8 @@ const Services = () => {
                                 </div>
                                 <p className="service-desc">
                                     Toujours dans le cadre d'offrir l'emploi à la population, Actions Sarl se lance dans le recrutement, la formation 
-                                    et placement du personnel à un coût très abordable.
+                                    et placement du personnel à un coût très abordable. L'Honnêteté, l'intégrité, la confidentialité et la disponibilité sont
+                                    les valeurs cardinales qui font de Actions Sarl un partenaire de choix.
                                 </p>
                                 <Link to="" className="service-btn">savoir plus</Link>
                             </div>
@@ -77,9 +76,8 @@ const Services = () => {
                                     <h2 className="service-h2">CONSULTING</h2>
                                 </div>
                                 <p className="service-desc">
-                                Une société à capitaux congolais d'Import et Export, de dédouanement, Logistique,
-                                des ressources humaines, consulting et expertise en hydrocarbure, basée à Kinshasa,
-                                Capitale de la République Démocratique du Congo (RDC).
+                                    Actions Sarl vous assisté à l'évaluation des projets, due diligence, ainsi qu'à la vérification des documents auprès des autorités consulaires,
+                                    administratives et judiciaires.
                                 </p>
                                 <Link to="" className="service-btn">savoir plus</Link>
                             </div>
