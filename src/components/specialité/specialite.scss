@@ -1,0 +1,68 @@
+@import '../../style.scss';
+.specialite{
+    width: 100%;
+    padding: 50px 0;
+    background: linear-gradient(rgba(104, 104, 158, 0.055),rgba(81, 81, 180, 0.021));
+    .specialite-wrapper{
+        max-width: 1025px;
+        margin: 0 auto;
+        .client-cont-title{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: center;
+            .client-sous-title{
+                width: 60%;
+                margin: 0 auto;
+                font-size: 2rem;
+                font-family: 'Anton', sans-serif;
+                color: rgb(21, 21, 65);
+                @include mobile{
+                    width: 100%;
+                 }
+            }
+            .apropos-barre{
+                display: flex;
+                align-items: center;
+                margin: 0 auto;
+                height: 5px;
+                width: 15%;
+                background: rgb(21, 21, 65);
+                overflow: hidden;
+                .apropos-moov{
+                    background: #fff;
+                    height: 100%;
+                    width: 7px;
+                    animation: barAnim 10s infinite;
+
+                    @keyframes barAnim {
+                        0%{
+                            transform: translateX(0px);
+                        }
+                        50%{
+                            transform: translateX(142px);
+                        }
+                        100%{
+                            transform: translateX(0px);
+                        }
+                    }
+                }
+            }
+        }
+        .specialite-container{
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+            .specialite-row{
+                width: 200px;
+                text-align: center;
+                position: relative;
+                .specialite-img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

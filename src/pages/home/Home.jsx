@@ -9,6 +9,7 @@ import LinePage from "../../components/linePage/LinePage"
 import Navbar from "../../components/navbar/Navbar"
 import Services from "../../components/services/Services"
 import Slider from "../../components/slider/Slider"
+import Specialite from "../../components/specialité/Specialite"
 import Topbar from "../../components/topbar/Topbar"
 import Villes from "../../components/villes/Villes"
 import "./home.scss"
@@ -26,6 +27,7 @@ const Home = () => {
                     <Apropos/>
                     <Clients/>
                     <Services/>
+                    <Specialite/>
                     <Equipe/>
                     <Formation/>
                     <Faq/>
