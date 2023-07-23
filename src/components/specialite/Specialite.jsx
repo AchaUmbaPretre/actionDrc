@@ -14,7 +14,7 @@ const Specialite = () => {
         <div className="specialite">
           <div className="specialite-wrapper">
             <div className="client-cont-title">
-              <h1 className="client-sous-title">NOS SPECIALITES</h1>
+              <h1 className="client-sous-title">NOS SPECIALITES EN PERSONNEL DE MAISON</h1>
               <p className="apropos-barre"><span className="apropos-moov"></span></p>
             </div>
 
@@ -41,7 +41,7 @@ const Specialite = () => {
 
               <div className="specialite-row" data-aos="zoom-in-up">
                 <img src={lavadier} alt="" className="specialite-img" />
-                <p className="specialite-desc">Lavadier</p>
+                <p className="specialite-desc">Lavandier</p>
               </div>
 
               <div className="specialite-row" data-aos="zoom-in-up">

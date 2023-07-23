@@ -1,6 +1,6 @@
 import './slider.scss'
-import { Link } from 'react-router-dom'
-import logo from '../../img/illustrator1.png'
+import fondLeft from '../../img/fond-left.png'
+import fondCopie from '../../img/fond_-_Copie-removebg-preview.png'
 import {TrendingFlat } from '@mui/icons-material'
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 
@@ -22,7 +22,8 @@ const Slider = () => {
                     </div>
                 </div>
                 <div className="slider-right" data-aos="fade-up-left">
-                    <img src={logo} alt="" className="slider-img" />
+                    <img src={fondLeft} alt="" className="slider-img" />
+                    <img src={fondCopie} alt="" className="slider-img" />
                 </div>
             </div>
         </div>

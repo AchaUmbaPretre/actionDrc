@@ -28,6 +28,7 @@
         display: flex;
         justify-content: space-between;
         padding-top: 60px;
+        gap: 30px;
         @include laptop{
             width: 900px;
         }
@@ -158,11 +159,14 @@
             width: 100%;
             display: flex;
             justify-content: flex-end;
+            position: relative;
+            overflow: hidden;
             @include mobile{
                 display: none;
             }
             .slider-img{
-                width: 90%;
+                width: 100%;
+                height: 80%;
                 object-fit: cover;
             }
         }

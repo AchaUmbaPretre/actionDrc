@@ -7,16 +7,17 @@ const Contact = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [objectif, setObjectif] = useState('');
+    const [tel, setTel] = useState('');
     const [message, setMessage] = useState('')
 
 
     const sendEmail = (e) =>{
         e.preventDefault();
 
-        var data = {name:name, email:email, objectif:objectif, message: message};
+        var data = {name:name, email:email, objectif:objectif, tel:tel, message: message};
         console.log(data)
 
-        emailjs.send('service_kymooqf', 'template_iveurhc', data, 'tYX9g0nQroGqMMv5F')
+        emailjs.send('service_ncsslgn', 'template_5vgjavn', data, 'tYX9g0nQroGqMMv5F')
         .then((result) => {
             alert('le message est envoyé avec succès');
             console.log(result)
@@ -26,6 +27,7 @@ const Contact = () => {
         setName('');
         setEmail('');
         setObjectif('');
+        setTel('');
         setMessage('');
     }
 
@@ -92,7 +94,10 @@ const Contact = () => {
                                 <div className="form-control">
                                     <input type="text" name="objectif" value={objectif} onChange={(e)=>{setObjectif(e.target.value)}} className="input-controle" placeholder='Objectif...' />
                                 </div>
-                                <textarea name="message" value={message} onChange={(e)=>{setMessage(e.target.value)}} id="" rows="20" placeholder='message...'></textarea>
+                                <div className="form-control">
+                                    <input type="tel" name="tel" value={tel} onChange={(e)=>{setTel(e.target.value)}} className="input-controle" placeholder='Entez votre numero de téléphone...' />
+                                </div>
+                                <textarea name="message" value={message} onChange={(e)=>{setMessage(e.target.value)}} id="" rows="15" placeholder='message...'></textarea>
                                 <button type='submit' className="contact-submit">Envoyer le message</button>
                             </form>
                         </div>
