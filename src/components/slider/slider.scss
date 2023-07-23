@@ -31,6 +31,9 @@
         @include laptop{
             width: 900px;
         }
+        @include tablette{
+            width: 850px;
+        }
         @include mobile{
             width: 400px;
             display: flex;

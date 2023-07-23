@@ -22,14 +22,14 @@
         justify-content: space-between;
         gap: 20px;
         overflow: hidden;
-
         @include laptop{
            width: 900px;
+           margin: 0 auto;
         }
         @include tablette{
             display: flex;
             flex-direction: column;
-            width: 870px;
+            width: 850px;
         }
         @include miniTablette{
             width: 500px;
@@ -111,6 +111,9 @@
                 line-height: 1.9;
                 text-align: justify;
                 font-weight: 300;
+                @include tablette{
+                    width: 95%;
+                }
             }
 
             .apropos-rows{
@@ -146,7 +149,7 @@
                 height: 250px;
                 object-fit: cover;
                 @include tablette{
-                    width: 100%;
+                    width: 95%;
                     height: 100%;
                 }
             }
