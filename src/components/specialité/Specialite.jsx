@@ -1,5 +1,12 @@
 import './specialite.scss'
 import cuisinier from './../../img/cuisinier.jpg'
+import nounou from './../../img/nounou-domicile.webp'
+import chauffeur from './../../img/chauffeur.webp'
+import gouvernante from './../../img/gouvernante.jpg'
+import majordome from './../../img/majordome.jpg'
+import pediatrie from './../../img/pediatrie.jpg'
+import femme from './../../img/femme.jpeg'
+import lavadier from './../../img/lavadier.jpg'
 
 const Specialite = () => {
   return (
@@ -18,18 +25,37 @@ const Specialite = () => {
               </div>
 
               <div className="specialite-row">
-                <img src={cuisinier} alt="" className="specialite-img" />
-                <p className="specialite-desc">Cuisinier</p>
+                <img src={nounou} alt="" className="specialite-img" />
+                <p className="specialite-desc">Nounou à domicile</p>
               </div>
 
               <div className="specialite-row">
-                <img src={cuisinier} alt="" className="specialite-img" />
-                <p className="specialite-desc">Cuisinier</p>
+                <img src={chauffeur} alt="" className="specialite-img" />
+                <p className="specialite-desc">Chauffeur</p>
               </div>
 
               <div className="specialite-row">
-                <img src={cuisinier} alt="" className="specialite-img" />
-                <p className="specialite-desc">Cuisinier</p>
+                <img src={gouvernante} alt="" className="specialite-img" />
+                <p className="specialite-desc">Gouvernante</p>
+              </div>
+
+              <div className="specialite-row">
+                <img src={lavadier} alt="" className="specialite-img" />
+                <p className="specialite-desc">Lavadier</p>
+              </div>
+
+              <div className="specialite-row">
+                <img src={majordome} alt="" className="specialite-img" />
+                <p className="specialite-desc">Majordome</p>
+              </div>
+
+              <div className="specialite-row">
+                <img src={femme} alt="" className="specialite-img" />
+                <p className="specialite-desc">Femme de ménage</p>
+              </div>
+              <div className="specialite-row">
+                <img src={pediatrie} alt="" className="specialite-img" />
+                <p className="specialite-desc">Puéricultrice</p>
               </div>
             </div>
           </div>
