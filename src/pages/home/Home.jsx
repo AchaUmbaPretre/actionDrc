@@ -9,6 +9,7 @@ import LinePage from "../../components/linePage/LinePage"
 import Navbar from "../../components/navbar/Navbar"
 import Services from "../../components/services/Services"
 import Slider from "../../components/slider/Slider"
+import Sliders from "../../components/slider/slider2/Sliders"
 import Specialite from "../../components/specialite/Specialite"
 import Topbar from "../../components/topbar/Topbar"
 import Villes from "../../components/villes/Villes"
@@ -23,7 +24,7 @@ const Home = () => {
                 <Topbar/>
                 <div className="home-navbar">
                     <Navbar/>
-                    <Slider/>
+                    <Sliders/>
                     <Apropos/>
                     <Clients/>
                     <Services/>
