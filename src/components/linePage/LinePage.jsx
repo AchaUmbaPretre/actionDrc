@@ -4,7 +4,7 @@ const LinePage = () => {
   return (
     <>
         <div className="footer-bottom">
-            <p className="footer-copy">©LoginSmort. tous droits réservés</p>
+            <p className="footer-copy">©LoginSmart. tous droits réservés</p>
         </div>
     </>
   )

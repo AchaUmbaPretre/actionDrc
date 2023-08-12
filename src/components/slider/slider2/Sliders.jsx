@@ -23,7 +23,7 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper swiper-container"
       >
         <SwiperSlide>
           <div className="slider-row1">
@@ -31,8 +31,8 @@ export default function App() {
               <h1 className="sliders-h1">Ensemble c’est possible</h1>
               <p className="slider-desc">Bienvenue sur le portail de ACTIONS SARL, votre Agence en Douane et partenaire de confiance pour le placement de personnel . Nous sommes basés à Kinshasa et nous avons une présence bien établie dans tout le pays, notamment dans les zones minières à forte activité économique.</p>
               <div className="sliders-row">
-                <a href="" className="slider-btn">Savoir plus <PlayCircleIcon className='icons-btn'/></a>
-                <a href="" className="slider-btn icon-white">Contactez nous <TrendingFlat className='icons-btn' /></a>
+                <a href="#apropos" className="slider-btn">Savoir plus <PlayCircleIcon className='icons-btn'/></a>
+                <a href="#contact" className="slider-btn icon-white">Contactez nous <TrendingFlat className='icons-btn' /></a>
               </div>
             </div>
           </div>
@@ -43,35 +43,34 @@ export default function App() {
                 <h1 className="sliders-h1">Ensemble c’est possible</h1>
                 <p className="slider-desc">Bienvenue sur le portail de ACTIONS SARL, votre Agence en Douane et partenaire de confiance pour le placement de personnel . Nous sommes basés à Kinshasa et nous avons une présence bien établie dans tout le pays, notamment dans les zones minières à forte activité économique.</p>
                 <div className="sliders-row">
-                  <a href="" className="slider-btn">Savoir plus <PlayCircleIcon className='icons-btn'/></a>
-                  <a href="" className="slider-btn icon-white">Contactez nous <TrendingFlat className='icons-btn'/></a>
+                  <a href="#apropos" className="slider-btn">Savoir plus <PlayCircleIcon className='icons-btn'/></a>
+                  <a href="#contact" className="slider-btn icon-white">Contactez nous <TrendingFlat className='icons-btn'/></a>
                 </div>
               </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slider-row3">
-              <div className="slider-wrapper">
+            <div className="slider-wrapper">
                 <h1 className="sliders-h1">Ensemble c’est possible</h1>
                 <p className="slider-desc">Bienvenue sur le portail de ACTIONS SARL, votre Agence en Douane et partenaire de confiance pour le placement de personnel . Nous sommes basés à Kinshasa et nous avons une présence bien établie dans tout le pays, notamment dans les zones minières à forte activité économique.</p>
                 <div className="sliders-row">
-                  <a href="" className="slider-btn">Savoir plus <PlayCircleIcon className='icons-btn'/></a>
-                  <a href="" className="slider-btn icon-white">Contactez nous <TrendingFlat className='icons-btn'/></a>
+                  <a href="#apropos" className="slider-btn">Savoir plus <PlayCircleIcon className='icons-btn'/></a>
+                  <a href="#contact" className="slider-btn icon-white">Contactez nous <TrendingFlat className='icons-btn'/></a>
                 </div>
-              </div>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slider-row4">
-          <div className="slider-wrapper">
+            <div className="slider-wrapper">
                 <h1 className="sliders-h1">Ensemble c’est possible</h1>
-                <hr className="slider-hr" />
                 <p className="slider-desc">Bienvenue sur le portail de ACTIONS SARL, votre Agence en Douane et partenaire de confiance pour le placement de personnel . Nous sommes basés à Kinshasa et nous avons une présence bien établie dans tout le pays, notamment dans les zones minières à forte activité économique.</p>
                 <div className="sliders-row">
-                  <a href="" className="slider-btn">Savoir plus <PlayCircleIcon className='icons-btn'/></a>
-                  <a href="" className="slider-btn icon-white">Contactez nous <TrendingFlat className='icons-btn'/></a>
+                  <a href="#apropos" className="slider-btn">Savoir plus <PlayCircleIcon className='icons-btn'/></a>
+                  <a href="#contact" className="slider-btn icon-white">Contactez nous <TrendingFlat className='icons-btn'/></a>
                 </div>
-              </div>
+            </div>
           </div>
         </SwiperSlide>
       </Swiper>
