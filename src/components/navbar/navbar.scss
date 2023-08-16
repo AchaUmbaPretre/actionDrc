@@ -93,15 +93,24 @@
                 display: flex;
                 align-items: center;
                 gap: 10px;
-
-                .navbar-icon{
-                    color: rgb(21, 21, 65);
-                    font-size: 1.2rem;
-                    cursor: pointer;
-                    &:hover{
-                        transform: scale(1.1);
+                .nav-bar-login{
+                    a{
+                        color: rgb(21, 21, 65);
+                        font-size: .9rem;
+                        transition: .5s; 
+                        font-weight: 300;
+                        display: flex;
+                        align-items: center;
+                        &:hover{
+                            transform: scale(1);
+                        }
+                        .login-icon{
+                            color: rgb(21, 21, 65);;
+                            font-size: .9rem;
+                        }
                     }
                 }
+
 
             }
             .navbar-rsx-blue{
@@ -113,14 +122,27 @@
                 align-items: center;
                 gap: 10px;
 
-                .navbar-icon{
+                .nav-bar-login{
+                    a{
+                        color:#fff;
+                        &:hover{
+                            transform: scale(1);
+                        }
+                        .login-icon{
+                            color: #fff;
+                            font-size: .9rem;
+                        }
+                    }
+                }
+
+/*                 .navbar-icon{
                     color: #fff;
                     font-size: 1.2rem;
                     cursor: pointer;
                     &:hover{
                         transform: scale(1.1);
                     }
-                }
+                } */
             }
         }.navbarOpen{
             right: 0;

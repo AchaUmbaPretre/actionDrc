@@ -4,6 +4,7 @@ import {FacebookOutlined, Instagram, LinkedIn,Twitter } from '@mui/icons-materia
 import ClearAllIcon from '@mui/icons-material/ClearAll';
 import CloseIcon from '@mui/icons-material/Close';
 import actions from "./../../img/actionssarl.PNG"
+import LoginIcon from '@mui/icons-material/Login';
 
 const Navbar = () => {
 
@@ -38,10 +39,8 @@ const Navbar = () => {
                         <li className="navbar-li"><a href={'#faq'} className={active ? "bleu-link" : "navbar-link"}>Faq</a></li>
                         <li className="navbar-li"><a href={'#contact'}  className={active ? "bleu-link" : "navbar-link"}>Contact</a></li>
                         <div className={active ? "navbar-rsx-blue" : "navbar-rsx"}>
-                            <FacebookOutlined className='navbar-icon'/>
-                            <Twitter className='navbar-icon'/>
-                            <Instagram className='navbar-icon'/>
-                            <LinkedIn className='navbar-icon'/>
+                            <span className="nav-bar-login"><a href=""><LoginIcon className='login-icon'/> Login</a></span>
+                            <span className="nav-bar-login"><a href="">Register</a></span>
                         </div>
                     </ul>
                     {bar ? <CloseIcon className='navbar-bar active-red' onClick={handBar}/>:<ClearAllIcon className='navbar-bar' onClick={handBar}/> }
