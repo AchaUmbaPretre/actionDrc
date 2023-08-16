@@ -21,7 +21,7 @@ export default function App() {
         pagination={{
           clickable: true,
         }}
-        navigation={false} // Retiré les flèches de navigation
+        navigation={false}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper swiper-container custom-swiper"
       >
